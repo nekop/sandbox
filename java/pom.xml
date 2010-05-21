@@ -24,6 +24,9 @@
         <configuration>
           <source>1.5</source>
           <target>1.5</target>
+          <excludes>
+            <exclude>**/exclude/*.java</exclude>
+          </excludes>
         </configuration>
       </plugin>
     </plugins>
