@@ -1,9 +1,9 @@
-package sandbox.leak;
+package sandbox;
 
 import java.lang.ref.ReferenceQueue;
 import java.lang.ref.PhantomReference;
 
-public class ThreadLocalLeak {
+public class ThreadLocalKeyValue {
     private ThreadLocal tl = new ThreadLocal();
 
     public void add(Object key, Object value) {
@@ -18,7 +18,7 @@ public class ThreadLocalLeak {
         return ((KeyValuePair)tl.get()).value;
     }
 
-    private class KeyValuePair {
+    private static class KeyValuePair {
         public Object key;
         public Object value;
         public KeyValuePair(Object key, Object value) {
@@ -28,12 +28,12 @@ public class ThreadLocalLeak {
     }
 
     public static void main(String[] args) throws Exception {
-        ThreadLocalLeak target = new ThreadLocalLeak();
+        ThreadLocalKeyValue target = new ThreadLocalKeyValue();
         target.add("foo", "bar");
         ReferenceQueue queue = new ReferenceQueue();
         PhantomReference ref = new PhantomReference(target, queue);
         target = null;
         System.gc();
-        System.out.println("Phantom Queued: " + ref.isEnqueued());
+        System.out.println("Target released?: " + ref.isEnqueued());
    }
 }
