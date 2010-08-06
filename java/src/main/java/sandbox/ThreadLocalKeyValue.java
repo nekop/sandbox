@@ -4,6 +4,7 @@ import java.lang.ref.ReferenceQueue;
 import java.lang.ref.PhantomReference;
 
 public class ThreadLocalKeyValue {
+
     private ThreadLocal tl = new ThreadLocal();
 
     public void add(Object key, Object value) {
@@ -18,7 +19,7 @@ public class ThreadLocalKeyValue {
         return ((KeyValuePair)tl.get()).value;
     }
 
-    private static class KeyValuePair {
+    private class KeyValuePair {
         public Object key;
         public Object value;
         public KeyValuePair(Object key, Object value) {
@@ -29,11 +30,13 @@ public class ThreadLocalKeyValue {
 
     public static void main(String[] args) throws Exception {
         ThreadLocalKeyValue target = new ThreadLocalKeyValue();
-        target.add("foo", "bar");
         ReferenceQueue queue = new ReferenceQueue();
         PhantomReference ref = new PhantomReference(target, queue);
+
+        target.add("foo", "bar");
         target = null;
+
         System.gc();
-        System.out.println("Target released?: " + ref.isEnqueued());
+        System.out.println("Released?: " + ref.isEnqueued());
    }
 }
