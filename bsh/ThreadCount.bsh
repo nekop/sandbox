@@ -1,0 +1,20 @@
+props = new java.util.Properties();
+props.put(javax.naming.Context.INITIAL_CONTEXT_FACTORY,
+          "org.jboss.security.jndi.JndiLoginInitialContextFactory");
+          //"org.jnp.interfaces.NamingContextFactory");
+props.put(javax.naming.Context.URL_PKG_PREFIXES,
+          "jboss.naming:org.jnp.interfaces");
+props.put(javax.naming.Context.PROVIDER_URL, "localhost:1099");
+props.put(javax.naming.Context.SECURITY_PRINCIPAL, "admin");
+props.put(javax.naming.Context.SECURITY_CREDENTIALS, "admin");
+context = new javax.naming.InitialContext(props);
+try {
+mbeanconn = context.lookup("jmx/invoker/RMIAdaptor");
+count = mbeanconn.getAttribute( javax.management.ObjectName.getInstance(java.lang.management.ManagementFactory.THREAD_MXBEAN_NAME), "ThreadCount" );
+System.out.println( "ThreadCount = " + count );
+
+} catch (ex) {
+    ex.printStackTrace();
+}
+
+

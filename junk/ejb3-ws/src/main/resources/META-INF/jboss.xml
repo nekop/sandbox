@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss>
+  <security-domain></security-domain>
+  <enterprise-beans>
+    <message-driven>
+      <ejb-name>HelloDDMDB</ejb-name>
+<!-- In JBoss EAP 4.x you need to customize aop domain
+      <aop-domain-name>Strictly Pooled Message Driven Bean</aop-domain-name>
+-->
+      <pool-config>
+        <pool-value>StrictMaxPool</pool-value>
+        <pool-max-size>1</pool-max-size>
+        <pool-timeout>5000</pool-timeout>
+      </pool-config>
+      <create-destination>true</create-destination>
+    </message-driven>
+  </enterprise-beans>
+</jboss>

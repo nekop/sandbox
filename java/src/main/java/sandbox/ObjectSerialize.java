@@ -7,31 +7,27 @@ import java.io.ObjectOutputStream;
 
 public class ObjectSerialize {
 
-    public static Object deserialize(byte[] bytes) {
+    public static Object deserialize(byte[] bytes) throws Exception {
         Object result = null;
-        try {
-            ObjectInputStream oos =
-                new ObjectInputStream(new ByteArrayInputStream(bytes));
-            result = oos.readObject();
-            oos.close();
-        } catch (Exception ignore) { }
+        ObjectInputStream oos =
+            new ObjectInputStream(new ByteArrayInputStream(bytes));
+        result = oos.readObject();
+        oos.close();
         return result;
     }
 
-    public static byte[] serialize(Object o) {
+    public static byte[] serialize(Object o) throws Exception {
         byte[] result = null;
-        try {
-            ByteArrayOutputStream baos = new ByteArrayOutputStream();
-            ObjectOutputStream oos = new ObjectOutputStream(baos);
-            oos.writeObject(o);
-            oos.flush();
-            result = baos.toByteArray();
-            oos.close();
-        } catch (Exception ignore) { }
+        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+        ObjectOutputStream oos = new ObjectOutputStream(baos);
+        oos.writeObject(o);
+        oos.flush();
+        result = baos.toByteArray();
+        oos.close();
         return result;
     }
 
-    public static Object deepClone(Object o) {
+    public static Object deepClone(Object o) throws Exception {
         return deserialize(serialize(o));
     }
 

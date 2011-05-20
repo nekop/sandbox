@@ -1,0 +1,7 @@
+r = Runtime.getRuntime();
+
+free = r.freeMemory();
+total = r.totalMemory();
+max = r.maxMemory();
+used = total - free;
+

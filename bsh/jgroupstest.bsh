@@ -1,0 +1,15 @@
+start() {
+    server = org.jboss.mx.util.MBeanServerLocator.locateJBoss();
+    objectName = javax.management.ObjectName.getInstance("jboss.jgroups:service=ChannelFactory");
+    operationName = "createChannel";
+    params = new Object[] { "udp" };
+    sig = new String[] { "java.lang.String" };
+    channel = server.invoke(objectName, operationName, params, sig);
+    channel.connect("test");
+    print("sleep 1 sec");
+    try {
+        Thread.sleep(1000);
+    } catch (InterruptedException ignore) { }
+    channel.close();
+    print("ok");
+}

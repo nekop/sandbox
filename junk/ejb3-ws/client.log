@@ -1,0 +1,1037 @@
+2010-07-29 01:20:22,362 DEBUG [org.jboss.ws.metadata.builder.jaxws.JAXWSWebServiceMetaDataBuilder] (main) START buildMetaData: [service={http://slsb.ejb3.examples.programmers.jp/}HelloSLSBService]
+2010-07-29 01:20:22,374 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2005/05/xmlmime}base64Binary,javaType=javax.activation.DataHandler,sf=org.jboss.ws.core.jaxrpc.binding.JBossXBSerializerFactory@15ac3c9,df=org.jboss.ws.core.jaxrpc.binding.JBossXBDeserializerFactory@1ebd75b]
+2010-07-29 01:20:22,376 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2005/05/xmlmime}base64Binary,javaType=javax.activation.DataHandler,sf=org.jboss.ws.core.jaxrpc.binding.JBossXBSerializerFactory@15ac3c9,df=org.jboss.ws.core.jaxrpc.binding.JBossXBDeserializerFactory@1ebd75b]
+2010-07-29 01:20:22,376 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2005/05/xmlmime}base64Binary,javaType=javax.activation.DataHandler,sf=org.jboss.ws.core.jaxrpc.binding.JBossXBSerializerFactory@15ac3c9,df=org.jboss.ws.core.jaxrpc.binding.JBossXBDeserializerFactory@1ebd75b]
+2010-07-29 01:20:22,376 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2005/05/xmlmime}base64Binary,javaType=javax.activation.DataHandler,sf=org.jboss.ws.core.jaxrpc.binding.JBossXBSerializerFactory@15ac3c9,df=org.jboss.ws.core.jaxrpc.binding.JBossXBDeserializerFactory@1ebd75b]
+2010-07-29 01:20:22,376 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2005/05/xmlmime}base64Binary,javaType=javax.activation.DataHandler,sf=org.jboss.ws.core.jaxrpc.binding.JBossXBSerializerFactory@15ac3c9,df=org.jboss.ws.core.jaxrpc.binding.JBossXBDeserializerFactory@1ebd75b]
+2010-07-29 01:20:22,376 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2005/05/xmlmime}base64Binary,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.JBossXBSerializerFactory@15ac3c9,df=org.jboss.ws.core.jaxrpc.binding.JBossXBDeserializerFactory@1ebd75b]
+2010-07-29 01:20:22,376 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2005/05/xmlmime}base64Binary,javaType=java.awt.Image,sf=org.jboss.ws.core.jaxrpc.binding.JBossXBSerializerFactory@15ac3c9,df=org.jboss.ws.core.jaxrpc.binding.JBossXBDeserializerFactory@1ebd75b]
+2010-07-29 01:20:22,376 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2005/05/xmlmime}base64Binary,javaType=javax.xml.transform.Source,sf=org.jboss.ws.core.jaxrpc.binding.JBossXBSerializerFactory@15ac3c9,df=org.jboss.ws.core.jaxrpc.binding.JBossXBDeserializerFactory@1ebd75b]
+2010-07-29 01:20:22,379 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2005/05/xmlmime}base64Binary,javaType=javax.mail.internet.MimeMultipart,sf=org.jboss.ws.core.jaxrpc.binding.JBossXBSerializerFactory@15ac3c9,df=org.jboss.ws.core.jaxrpc.binding.JBossXBDeserializerFactory@1ebd75b]
+2010-07-29 01:20:22,381 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}decimal,javaType=java.math.BigDecimal,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@90cb03,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@6cb8]
+2010-07-29 01:20:22,382 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}positiveInteger,javaType=java.math.BigInteger,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@f01a1e,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@142a80d]
+2010-07-29 01:20:22,382 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}negativeInteger,javaType=java.math.BigInteger,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@139b78e,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@41d05d]
+2010-07-29 01:20:22,382 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}nonPositiveInteger,javaType=java.math.BigInteger,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@d6a05e,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@ba8602]
+2010-07-29 01:20:22,382 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}nonNegativeInteger,javaType=java.math.BigInteger,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1b3f8f6,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@9df6f1]
+2010-07-29 01:20:22,382 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}unsignedLong,javaType=java.math.BigInteger,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@bf7190,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@b8bef7]
+2010-07-29 01:20:22,382 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}integer,javaType=java.math.BigInteger,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1016632,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@dc6a77]
+2010-07-29 01:20:22,383 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}dateTime,javaType=java.util.Date,sf=org.jboss.ws.core.jaxrpc.binding.DateSerializerFactory@1342ba4,df=org.jboss.ws.core.jaxrpc.binding.DateDeserializerFactory@1d332b]
+2010-07-29 01:20:22,385 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}date,javaType=java.util.Calendar,sf=org.jboss.ws.core.jaxrpc.binding.CalendarSerializerFactory@8e32e7,df=org.jboss.ws.core.jaxrpc.binding.CalendarDeserializerFactory@1b000e7]
+2010-07-29 01:20:22,385 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}time,javaType=java.util.Calendar,sf=org.jboss.ws.core.jaxrpc.binding.CalendarSerializerFactory@b01d43,df=org.jboss.ws.core.jaxrpc.binding.CalendarDeserializerFactory@513cf0]
+2010-07-29 01:20:22,385 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}dateTime,javaType=java.util.Calendar,sf=org.jboss.ws.core.jaxrpc.binding.CalendarSerializerFactory@177b3cd,df=org.jboss.ws.core.jaxrpc.binding.CalendarDeserializerFactory@1bd7848]
+2010-07-29 01:20:22,387 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}QName,javaType=javax.xml.namespace.QName,sf=org.jboss.ws.core.jaxrpc.binding.QNameSerializerFactory@1549f94,df=org.jboss.ws.core.jaxrpc.binding.QNameDeserializerFactory@b8c8e6]
+2010-07-29 01:20:22,387 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}anySimpleType,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@10ab323,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@176e552]
+2010-07-29 01:20:22,387 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}duration,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@c980c9,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@12611a7]
+2010-07-29 01:20:22,387 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}gDay,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@51052d,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@12ad19e]
+2010-07-29 01:20:22,387 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}gMonth,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@281d4b,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@19b5217]
+2010-07-29 01:20:22,387 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}gMonthDay,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@2a6f16,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1e3118a]
+2010-07-29 01:20:22,387 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}gYear,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@94884d,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1807ca8]
+2010-07-29 01:20:22,387 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}gYearMonth,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@7808b9,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@84da23]
+2010-07-29 01:20:22,387 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}ID,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@d3d6f,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@13c468a]
+2010-07-29 01:20:22,387 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}language,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@3b1d04,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@ee22f7]
+2010-07-29 01:20:22,387 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}Name,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@39ab89,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@2cb49d]
+2010-07-29 01:20:22,387 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}NCName,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@105d88a,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@cb6009]
+2010-07-29 01:20:22,388 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}NMTOKEN,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@e28b9,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@193a66f]
+2010-07-29 01:20:22,388 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}normalizedString,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@93d6bc,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1f6df4c]
+2010-07-29 01:20:22,388 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}token,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@be0e27,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@193385d]
+2010-07-29 01:20:22,388 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}string,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@5973ea,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@c9131c]
+2010-07-29 01:20:22,388 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}NMTOKENS,javaType=[Ljava.lang.String;,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@105b99f,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@dda25b]
+2010-07-29 01:20:22,388 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}anyURI,javaType=java.net.URI,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@f8968f,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@64c34e]
+2010-07-29 01:20:22,389 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}boolean,javaType=boolean,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1fddc31,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1835282]
+2010-07-29 01:20:22,389 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}boolean,javaType=java.lang.Boolean,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1d225a7,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1a62c31]
+2010-07-29 01:20:22,389 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}byte,javaType=byte,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@141b571,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@ef137d]
+2010-07-29 01:20:22,389 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}byte,javaType=java.lang.Byte,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@e32802,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@157c2bd]
+2010-07-29 01:20:22,390 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}hexBinary,javaType=[Ljava.lang.Byte;,sf=org.jboss.ws.core.jaxrpc.binding.HexSerializerFactory@182da3d,df=org.jboss.ws.core.jaxrpc.binding.HexDeserializerFactory@1c5f743]
+2010-07-29 01:20:22,390 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}hexBinary,javaType=[B,sf=org.jboss.ws.core.jaxrpc.binding.HexSerializerFactory@18c56d,df=org.jboss.ws.core.jaxrpc.binding.HexDeserializerFactory@497934]
+2010-07-29 01:20:22,392 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}base64Binary,javaType=[Ljava.lang.Byte;,sf=org.jboss.ws.core.jaxrpc.binding.Base64SerializerFactory@1bb60c3,df=org.jboss.ws.core.jaxrpc.binding.Base64DeserializerFactory@cdb06e]
+2010-07-29 01:20:22,392 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}base64Binary,javaType=[B,sf=org.jboss.ws.core.jaxrpc.binding.Base64SerializerFactory@1fa1bb6,df=org.jboss.ws.core.jaxrpc.binding.Base64DeserializerFactory@1315d34]
+2010-07-29 01:20:22,392 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}double,javaType=double,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1de256f,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@16bd8ea]
+2010-07-29 01:20:22,392 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}double,javaType=java.lang.Double,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@e2cb55,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@19360e2]
+2010-07-29 01:20:22,392 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}float,javaType=float,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@b6e39f,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@119dc16]
+2010-07-29 01:20:22,392 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}float,javaType=java.lang.Float,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@128f6ee,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@6bade9]
+2010-07-29 01:20:22,392 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}unsignedShort,javaType=int,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@9945ce,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@b5dac4]
+2010-07-29 01:20:22,392 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}unsignedShort,javaType=java.lang.Integer,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@110003,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@17e4ca]
+2010-07-29 01:20:22,392 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}int,javaType=int,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@175d6ab,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@160a26f]
+2010-07-29 01:20:22,392 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}int,javaType=java.lang.Integer,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1484a05,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@f39b3a]
+2010-07-29 01:20:22,393 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}unsignedInt,javaType=long,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1542a75,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@af993e]
+2010-07-29 01:20:22,393 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}unsignedInt,javaType=java.lang.Long,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@c62c8,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@12940b3]
+2010-07-29 01:20:22,393 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}long,javaType=long,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1f66cff,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@16de49c]
+2010-07-29 01:20:22,393 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}long,javaType=java.lang.Long,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1bbf1ca,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1ff0dde]
+2010-07-29 01:20:22,393 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}unsignedByte,javaType=short,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1e78fc6,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1901437]
+2010-07-29 01:20:22,393 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}unsignedByte,javaType=java.lang.Short,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@64ea66,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@158f9d3]
+2010-07-29 01:20:22,393 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}short,javaType=short,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1b60280,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@5e55ab]
+2010-07-29 01:20:22,396 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}short,javaType=java.lang.Short,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@14a55f2,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@19836ed]
+2010-07-29 01:20:22,396 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.jboss.org/jbossws/attachment/mimetype}application_xml,javaType=javax.activation.DataHandler,sf=null,df=null]
+2010-07-29 01:20:22,396 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.jboss.org/jbossws/attachment/mimetype}image_gif,javaType=javax.activation.DataHandler,sf=null,df=null]
+2010-07-29 01:20:22,396 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.jboss.org/jbossws/attachment/mimetype}image_jpeg,javaType=javax.activation.DataHandler,sf=null,df=null]
+2010-07-29 01:20:22,396 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.jboss.org/jbossws/attachment/mimetype}text_plain,javaType=javax.activation.DataHandler,sf=null,df=null]
+2010-07-29 01:20:22,396 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.jboss.org/jbossws/attachment/mimetype}text_xml,javaType=javax.activation.DataHandler,sf=null,df=null]
+2010-07-29 01:20:22,396 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.jboss.org/jbossws/attachment/mimetype}multipart_mixed,javaType=javax.mail.internet.MimeMultipart,sf=null,df=null]
+2010-07-29 01:20:22,398 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}anyType,javaType=javax.xml.soap.SOAPElement,sf=org.jboss.ws.core.jaxrpc.binding.SOAPElementSerializerFactory@55e55f,df=org.jboss.ws.core.jaxrpc.binding.SOAPElementDeserializerFactory@145c859]
+2010-07-29 01:20:22,399 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://www.w3.org/2001/XMLSchema}anyType,javaType=org.w3c.dom.Element,sf=org.jboss.ws.core.jaxrpc.binding.ElementSerializerFactory@153f67e,df=org.jboss.ws.core.jaxrpc.binding.ElementDeserializerFactory@15bdc50]
+2010-07-29 01:20:22,401 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}decimal,javaType=java.math.BigDecimal,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@c791b9,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@3020ad]
+2010-07-29 01:20:22,401 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}positiveInteger,javaType=java.math.BigInteger,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1b15692,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1aa9f99]
+2010-07-29 01:20:22,401 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}negativeInteger,javaType=java.math.BigInteger,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@d42d08,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1d86fd3]
+2010-07-29 01:20:22,401 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}nonPositiveInteger,javaType=java.math.BigInteger,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@958bb8,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@7f4ec]
+2010-07-29 01:20:22,401 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}nonNegativeInteger,javaType=java.math.BigInteger,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@60e128,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@5e1077]
+2010-07-29 01:20:22,401 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}unsignedLong,javaType=java.math.BigInteger,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@18b3364,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1db05b2]
+2010-07-29 01:20:22,401 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}integer,javaType=java.math.BigInteger,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@530cf2,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@76fba0]
+2010-07-29 01:20:22,401 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}dateTime,javaType=java.util.Date,sf=org.jboss.ws.core.jaxrpc.binding.DateSerializerFactory@181ed9e,df=org.jboss.ws.core.jaxrpc.binding.DateDeserializerFactory@1175422]
+2010-07-29 01:20:22,401 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}date,javaType=java.util.Calendar,sf=org.jboss.ws.core.jaxrpc.binding.CalendarSerializerFactory@949f69,df=org.jboss.ws.core.jaxrpc.binding.CalendarDeserializerFactory@16dadf9]
+2010-07-29 01:20:22,401 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}time,javaType=java.util.Calendar,sf=org.jboss.ws.core.jaxrpc.binding.CalendarSerializerFactory@1b8d6f7,df=org.jboss.ws.core.jaxrpc.binding.CalendarDeserializerFactory@290fbc]
+2010-07-29 01:20:22,401 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}dateTime,javaType=java.util.Calendar,sf=org.jboss.ws.core.jaxrpc.binding.CalendarSerializerFactory@1c80b01,df=org.jboss.ws.core.jaxrpc.binding.CalendarDeserializerFactory@4aa0ce]
+2010-07-29 01:20:22,402 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}QName,javaType=javax.xml.namespace.QName,sf=org.jboss.ws.core.jaxrpc.binding.QNameSerializerFactory@1833eca,df=org.jboss.ws.core.jaxrpc.binding.QNameDeserializerFactory@18f5824]
+2010-07-29 01:20:22,402 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}anySimpleType,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1e3cd51,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@bc8e1e]
+2010-07-29 01:20:22,402 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}duration,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@11671b2,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@82764b]
+2010-07-29 01:20:22,402 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}gDay,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@12452e8,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1bf3d87]
+2010-07-29 01:20:22,402 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}gMonth,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@60991f,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1e4f7c2]
+2010-07-29 01:20:22,402 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}gMonthDay,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@145f0e3,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@c9d92c]
+2010-07-29 01:20:22,402 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}gYear,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1d0fafc,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@10dc6b5]
+2010-07-29 01:20:22,402 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}gYearMonth,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@170bea5,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@f47396]
+2010-07-29 01:20:22,402 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}ID,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@d0af9b,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@b8f8eb]
+2010-07-29 01:20:22,402 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}language,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1de17f4,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1f6ba0f]
+2010-07-29 01:20:22,402 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}Name,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1313906,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@96cf11]
+2010-07-29 01:20:22,402 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}NCName,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@f47bf5,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@f6438d]
+2010-07-29 01:20:22,402 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}NMTOKEN,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1cd0888,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1eb2c1b]
+2010-07-29 01:20:22,402 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}normalizedString,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@9cbd4b,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@4f9fdc]
+2010-07-29 01:20:22,403 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}token,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@18825b3,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1632847]
+2010-07-29 01:20:22,403 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}string,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@e95a56,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@29e357]
+2010-07-29 01:20:22,403 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}NMTOKENS,javaType=[Ljava.lang.String;,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@ca470,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1ffc686]
+2010-07-29 01:20:22,403 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}anyURI,javaType=java.net.URI,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@142bece,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@fcfa52]
+2010-07-29 01:20:22,403 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}boolean,javaType=boolean,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@961dff,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@18b81e3]
+2010-07-29 01:20:22,403 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}boolean,javaType=java.lang.Boolean,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1fc6e42,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1aaf0b3]
+2010-07-29 01:20:22,403 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}byte,javaType=byte,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1a082e2,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@f0c85e]
+2010-07-29 01:20:22,403 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}byte,javaType=java.lang.Byte,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1f297e7,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1d2fc36]
+2010-07-29 01:20:22,403 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}hexBinary,javaType=[Ljava.lang.Byte;,sf=org.jboss.ws.core.jaxrpc.binding.HexSerializerFactory@ac6a45,df=org.jboss.ws.core.jaxrpc.binding.HexDeserializerFactory@175078b]
+2010-07-29 01:20:22,403 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}hexBinary,javaType=[B,sf=org.jboss.ws.core.jaxrpc.binding.HexSerializerFactory@42552c,df=org.jboss.ws.core.jaxrpc.binding.HexDeserializerFactory@e5bbd6]
+2010-07-29 01:20:22,403 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}base64Binary,javaType=[Ljava.lang.Byte;,sf=org.jboss.ws.core.jaxrpc.binding.Base64SerializerFactory@8ee016,df=org.jboss.ws.core.jaxrpc.binding.Base64DeserializerFactory@19e15c]
+2010-07-29 01:20:22,403 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}base64Binary,javaType=[B,sf=org.jboss.ws.core.jaxrpc.binding.Base64SerializerFactory@11a75a2,df=org.jboss.ws.core.jaxrpc.binding.Base64DeserializerFactory@210b5b]
+2010-07-29 01:20:22,403 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}double,javaType=double,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@170888e,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@11563ff]
+2010-07-29 01:20:22,403 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}double,javaType=java.lang.Double,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1581593,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1f06dc3]
+2010-07-29 01:20:22,403 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}float,javaType=float,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1b64e6a,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1d62270]
+2010-07-29 01:20:22,403 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}float,javaType=java.lang.Float,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@16f0be8,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@176cad3]
+2010-07-29 01:20:22,404 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}unsignedShort,javaType=int,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1fe1feb,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@e1899b]
+2010-07-29 01:20:22,404 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}unsignedShort,javaType=java.lang.Integer,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1113622,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@f8f7db]
+2010-07-29 01:20:22,404 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}int,javaType=int,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@15856a5,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@a084f8]
+2010-07-29 01:20:22,404 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}int,javaType=java.lang.Integer,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@79ed7f,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@d73c7a]
+2010-07-29 01:20:22,404 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}unsignedInt,javaType=long,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@c39a20,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1bbd23f]
+2010-07-29 01:20:22,404 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}unsignedInt,javaType=java.lang.Long,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1e845c2,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@3c0007]
+2010-07-29 01:20:22,404 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}long,javaType=long,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@125fefa,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@186df0f]
+2010-07-29 01:20:22,404 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}long,javaType=java.lang.Long,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@19e8f17,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@c44b88]
+2010-07-29 01:20:22,404 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}unsignedByte,javaType=short,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@13ad33d,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@102799c]
+2010-07-29 01:20:22,404 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}unsignedByte,javaType=java.lang.Short,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@17e121c,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1d6f122]
+2010-07-29 01:20:22,404 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}short,javaType=short,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@7109c4,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1385660]
+2010-07-29 01:20:22,404 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}short,javaType=java.lang.Short,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1aed5f9,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@161dfb5]
+2010-07-29 01:20:22,404 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}decimal,javaType=java.math.BigDecimal,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@a613f8,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@16921fd]
+2010-07-29 01:20:22,404 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}positiveInteger,javaType=java.math.BigInteger,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@136a43c,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@589e56]
+2010-07-29 01:20:22,404 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}negativeInteger,javaType=java.math.BigInteger,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@3411a,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1a7508a]
+2010-07-29 01:20:22,405 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}nonPositiveInteger,javaType=java.math.BigInteger,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@198cb3d,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@472d48]
+2010-07-29 01:20:22,405 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}nonNegativeInteger,javaType=java.math.BigInteger,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@edf3f6,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@2bc3f5]
+2010-07-29 01:20:22,405 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}unsignedLong,javaType=java.math.BigInteger,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@14e3f41,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1acd47]
+2010-07-29 01:20:22,405 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}integer,javaType=java.math.BigInteger,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@19b04e2,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@5dcec6]
+2010-07-29 01:20:22,405 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}dateTime,javaType=java.util.Date,sf=org.jboss.ws.core.jaxrpc.binding.DateSerializerFactory@b25b9d,df=org.jboss.ws.core.jaxrpc.binding.DateDeserializerFactory@19ce060]
+2010-07-29 01:20:22,405 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}date,javaType=java.util.Calendar,sf=org.jboss.ws.core.jaxrpc.binding.CalendarSerializerFactory@4ecfdd,df=org.jboss.ws.core.jaxrpc.binding.CalendarDeserializerFactory@30d82d]
+2010-07-29 01:20:22,405 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}time,javaType=java.util.Calendar,sf=org.jboss.ws.core.jaxrpc.binding.CalendarSerializerFactory@c09554,df=org.jboss.ws.core.jaxrpc.binding.CalendarDeserializerFactory@18bf072]
+2010-07-29 01:20:22,405 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}dateTime,javaType=java.util.Calendar,sf=org.jboss.ws.core.jaxrpc.binding.CalendarSerializerFactory@56f631,df=org.jboss.ws.core.jaxrpc.binding.CalendarDeserializerFactory@13d28e3]
+2010-07-29 01:20:22,405 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}QName,javaType=javax.xml.namespace.QName,sf=org.jboss.ws.core.jaxrpc.binding.QNameSerializerFactory@476128,df=org.jboss.ws.core.jaxrpc.binding.QNameDeserializerFactory@3b8b49]
+2010-07-29 01:20:22,405 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}anySimpleType,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1359c1b,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@9be79a]
+2010-07-29 01:20:22,405 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}duration,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@18235ed,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1a28362]
+2010-07-29 01:20:22,405 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}gDay,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@5fcf29,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@19b1de]
+2010-07-29 01:20:22,405 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}gMonth,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@ec6b00,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@164dbd5]
+2010-07-29 01:20:22,405 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}gMonthDay,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@9cb0f4,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@125844f]
+2010-07-29 01:20:22,406 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}gYear,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@11978b,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@f42ad0]
+2010-07-29 01:20:22,406 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}gYearMonth,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@26dbec,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1309e87]
+2010-07-29 01:20:22,406 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}ID,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@f7c31d,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@2acc65]
+2010-07-29 01:20:22,406 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}language,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1d10a5c,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@ff2413]
+2010-07-29 01:20:22,406 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}Name,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@9980d5,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1d95492]
+2010-07-29 01:20:22,406 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}NCName,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@13f7281,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@76ab2f]
+2010-07-29 01:20:22,406 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}NMTOKEN,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@e0cc23,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@7a1576]
+2010-07-29 01:20:22,406 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}normalizedString,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1171b26,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1f78040]
+2010-07-29 01:20:22,406 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}token,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@50988,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@b4e29b]
+2010-07-29 01:20:22,406 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}string,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@18941f7,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@49d67c]
+2010-07-29 01:20:22,406 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}NMTOKENS,javaType=[Ljava.lang.String;,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1a06e38,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1a42792]
+2010-07-29 01:20:22,406 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}anyURI,javaType=java.net.URI,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@2200d5,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@64ab4d]
+2010-07-29 01:20:22,406 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}boolean,javaType=boolean,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@12a55aa,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@5e13ad]
+2010-07-29 01:20:22,406 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}boolean,javaType=java.lang.Boolean,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@5dd582,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@6c585a]
+2010-07-29 01:20:22,407 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}byte,javaType=byte,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@11ca803,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@5a67c9]
+2010-07-29 01:20:22,407 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}byte,javaType=java.lang.Byte,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@153c375,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@453807]
+2010-07-29 01:20:22,407 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}hexBinary,javaType=[B,sf=org.jboss.ws.core.jaxrpc.binding.HexSerializerFactory@618d26,df=org.jboss.ws.core.jaxrpc.binding.HexDeserializerFactory@79e304]
+2010-07-29 01:20:22,407 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}hexBinary,javaType=[Ljava.lang.Byte;,sf=org.jboss.ws.core.jaxrpc.binding.HexSerializerFactory@273686,df=org.jboss.ws.core.jaxrpc.binding.HexDeserializerFactory@6caf16]
+2010-07-29 01:20:22,407 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}base64Binary,javaType=[B,sf=org.jboss.ws.core.jaxrpc.binding.Base64SerializerFactory@15ad5c6,df=org.jboss.ws.core.jaxrpc.binding.Base64DeserializerFactory@88e2dd]
+2010-07-29 01:20:22,407 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}base64Binary,javaType=[Ljava.lang.Byte;,sf=org.jboss.ws.core.jaxrpc.binding.Base64SerializerFactory@e64686,df=org.jboss.ws.core.jaxrpc.binding.Base64DeserializerFactory@203c31]
+2010-07-29 01:20:22,407 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}base64,javaType=[B,sf=org.jboss.ws.core.jaxrpc.binding.Base64SerializerFactory@4fc156,df=org.jboss.ws.core.jaxrpc.binding.Base64DeserializerFactory@1e2ca7]
+2010-07-29 01:20:22,407 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}base64,javaType=[Ljava.lang.Byte;,sf=org.jboss.ws.core.jaxrpc.binding.Base64SerializerFactory@105bd58,df=org.jboss.ws.core.jaxrpc.binding.Base64DeserializerFactory@1d1e730]
+2010-07-29 01:20:22,407 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}double,javaType=double,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1a116c9,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@df1832]
+2010-07-29 01:20:22,407 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}double,javaType=java.lang.Double,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@ad8659,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@4f459c]
+2010-07-29 01:20:22,407 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}float,javaType=float,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@633e5e,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@193c0cf]
+2010-07-29 01:20:22,407 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}float,javaType=java.lang.Float,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1576e70,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@11381e7]
+2010-07-29 01:20:22,407 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}unsignedShort,javaType=int,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1b5998f,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@17494c8]
+2010-07-29 01:20:22,408 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}unsignedShort,javaType=java.lang.Integer,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@d3db51,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@e3c624]
+2010-07-29 01:20:22,408 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}int,javaType=int,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1e57e8f,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1d7fbfb]
+2010-07-29 01:20:22,408 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}int,javaType=java.lang.Integer,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@e020c9,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@888e6c]
+2010-07-29 01:20:22,408 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}unsignedInt,javaType=long,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@13e58d4,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@39e5b5]
+2010-07-29 01:20:22,408 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}unsignedInt,javaType=java.lang.Long,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@117f31e,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@15a6029]
+2010-07-29 01:20:22,408 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}long,javaType=long,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@5f6303,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@5d9084]
+2010-07-29 01:20:22,408 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}long,javaType=java.lang.Long,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@bad8a8,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@e61fd1]
+2010-07-29 01:20:22,408 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}unsignedByte,javaType=short,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@331059,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@766a24]
+2010-07-29 01:20:22,408 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}unsignedByte,javaType=java.lang.Short,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@32784a,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1774b9b]
+2010-07-29 01:20:22,408 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}short,javaType=short,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@104c575,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@3fa5ac]
+2010-07-29 01:20:22,408 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}short,javaType=java.lang.Short,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@95cfbe,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@179dce4]
+2010-07-29 01:20:22,408 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}anyType,javaType=javax.xml.soap.SOAPElement,sf=org.jboss.ws.core.jaxrpc.binding.SOAPElementSerializerFactory@1950198,df=org.jboss.ws.core.jaxrpc.binding.SOAPElementDeserializerFactory@19bb25a]
+2010-07-29 01:20:22,409 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://www.w3.org/2001/XMLSchema}anyType,javaType=org.w3c.dom.Element,sf=org.jboss.ws.core.jaxrpc.binding.ElementSerializerFactory@da6bf4,df=org.jboss.ws.core.jaxrpc.binding.ElementDeserializerFactory@1e58cb8]
+2010-07-29 01:20:22,409 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}anyType,javaType=javax.xml.soap.SOAPElement,sf=org.jboss.ws.core.jaxrpc.binding.SOAPElementSerializerFactory@179935d,df=org.jboss.ws.core.jaxrpc.binding.SOAPElementDeserializerFactory@b9e45a]
+2010-07-29 01:20:22,409 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@10378355 [xmlType={http://schemas.xmlsoap.org/soap/encoding/}anyType,javaType=org.w3c.dom.Element,sf=org.jboss.ws.core.jaxrpc.binding.ElementSerializerFactory@3ef810,df=org.jboss.ws.core.jaxrpc.binding.ElementDeserializerFactory@100363]
+2010-07-29 01:20:22,421 DEBUG [org.jboss.ws.tools.wsdl.WSDLDefinitionsFactory] (main) parse: http://127.0.0.1:8080/example-ejb3/HelloSLSB?wsdl
+2010-07-29 01:20:22,472 TRACE [org.jboss.ws.tools.wsdl.WSDLDefinitionsFactory] (main) getBaseInputSource [wsdlUrl=http://127.0.0.1:8080/example-ejb3/HelloSLSB?wsdl]
+2010-07-29 01:20:22,553 TRACE [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) processDefinition: http://127.0.0.1:8080/example-ejb3/HelloSLSB?wsdl
+2010-07-29 01:20:22,560 TRACE [org.jboss.ws.metadata.wsdl.WSDLDefinitions] (main) setTargetNamespace: http://slsb.ejb3.examples.programmers.jp/
+2010-07-29 01:20:22,560 TRACE [org.jboss.ws.metadata.wsdl.WSDLDefinitions] (main) registerNamespaceURI: =http://schemas.xmlsoap.org/wsdl/
+2010-07-29 01:20:22,560 TRACE [org.jboss.ws.metadata.wsdl.WSDLDefinitions] (main) registerNamespaceURI: tns=http://slsb.ejb3.examples.programmers.jp/
+2010-07-29 01:20:22,560 TRACE [org.jboss.ws.metadata.wsdl.WSDLDefinitions] (main) registerNamespaceURI: xsd=http://www.w3.org/2001/XMLSchema
+2010-07-29 01:20:22,560 TRACE [org.jboss.ws.metadata.wsdl.WSDLDefinitions] (main) registerNamespaceURI: soap=http://schemas.xmlsoap.org/wsdl/soap/
+2010-07-29 01:20:22,561 TRACE [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) BEGIN processTypes: http://127.0.0.1:8080/example-ejb3/HelloSLSB?wsdl
+2010-07-29 01:20:22,561 TRACE [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) processSchemaInclude: http://127.0.0.1:8080/example-ejb3/HelloSLSB?wsdl
+2010-07-29 01:20:22,562 TRACE [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) processSchemaInclude: [targetNS=http://slsb.ejb3.examples.programmers.jp/,parentURL=http://127.0.0.1:8080/example-ejb3/HelloSLSB?wsdl]
+2010-07-29 01:20:22,570 DEBUG [org.jboss.wsf.framework.DefaultSPIProvider] (main) provide SPI 'class org.jboss.wsf.spi.management.ServerConfigFactory'
+2010-07-29 01:20:22,574 DEBUG [org.jboss.wsf.framework.DefaultSPIProvider] (main) class org.jboss.wsf.spi.management.ServerConfigFactory Implementation: org.jboss.wsf.framework.management.ServerConfigFactoryImpl@1ee2c2c
+2010-07-29 01:20:22,585 TRACE [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) handleSchemaImport: [namespace=http://schemas.xmlsoap.org/soap/encoding/,schemaLocation=null]
+2010-07-29 01:20:22,585 TRACE [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) Skip schema import: [namespace=http://schemas.xmlsoap.org/soap/encoding/,schemaLocation=null]
+2010-07-29 01:20:22,596 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2005/05/xmlmime}base64Binary,javaType=javax.activation.DataHandler,sf=org.jboss.ws.core.jaxrpc.binding.JBossXBSerializerFactory@1e903d5,df=org.jboss.ws.core.jaxrpc.binding.JBossXBDeserializerFactory@faa550]
+2010-07-29 01:20:22,596 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2005/05/xmlmime}base64Binary,javaType=javax.activation.DataHandler,sf=org.jboss.ws.core.jaxrpc.binding.JBossXBSerializerFactory@1e903d5,df=org.jboss.ws.core.jaxrpc.binding.JBossXBDeserializerFactory@faa550]
+2010-07-29 01:20:22,596 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2005/05/xmlmime}base64Binary,javaType=javax.activation.DataHandler,sf=org.jboss.ws.core.jaxrpc.binding.JBossXBSerializerFactory@1e903d5,df=org.jboss.ws.core.jaxrpc.binding.JBossXBDeserializerFactory@faa550]
+2010-07-29 01:20:22,596 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2005/05/xmlmime}base64Binary,javaType=javax.activation.DataHandler,sf=org.jboss.ws.core.jaxrpc.binding.JBossXBSerializerFactory@1e903d5,df=org.jboss.ws.core.jaxrpc.binding.JBossXBDeserializerFactory@faa550]
+2010-07-29 01:20:22,596 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2005/05/xmlmime}base64Binary,javaType=javax.activation.DataHandler,sf=org.jboss.ws.core.jaxrpc.binding.JBossXBSerializerFactory@1e903d5,df=org.jboss.ws.core.jaxrpc.binding.JBossXBDeserializerFactory@faa550]
+2010-07-29 01:20:22,596 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2005/05/xmlmime}base64Binary,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.JBossXBSerializerFactory@1e903d5,df=org.jboss.ws.core.jaxrpc.binding.JBossXBDeserializerFactory@faa550]
+2010-07-29 01:20:22,596 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2005/05/xmlmime}base64Binary,javaType=java.awt.Image,sf=org.jboss.ws.core.jaxrpc.binding.JBossXBSerializerFactory@1e903d5,df=org.jboss.ws.core.jaxrpc.binding.JBossXBDeserializerFactory@faa550]
+2010-07-29 01:20:22,596 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2005/05/xmlmime}base64Binary,javaType=javax.xml.transform.Source,sf=org.jboss.ws.core.jaxrpc.binding.JBossXBSerializerFactory@1e903d5,df=org.jboss.ws.core.jaxrpc.binding.JBossXBDeserializerFactory@faa550]
+2010-07-29 01:20:22,596 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2005/05/xmlmime}base64Binary,javaType=javax.mail.internet.MimeMultipart,sf=org.jboss.ws.core.jaxrpc.binding.JBossXBSerializerFactory@1e903d5,df=org.jboss.ws.core.jaxrpc.binding.JBossXBDeserializerFactory@faa550]
+2010-07-29 01:20:22,596 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}decimal,javaType=java.math.BigDecimal,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@17b6643,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@76e8a7]
+2010-07-29 01:20:22,596 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}positiveInteger,javaType=java.math.BigInteger,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@a45536,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@d66426]
+2010-07-29 01:20:22,597 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}negativeInteger,javaType=java.math.BigInteger,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1490eb5,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@164b09c]
+2010-07-29 01:20:22,597 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}nonPositiveInteger,javaType=java.math.BigInteger,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@186f247,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@8c4a77]
+2010-07-29 01:20:22,597 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}nonNegativeInteger,javaType=java.math.BigInteger,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@6d0040,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@2b9406]
+2010-07-29 01:20:22,597 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}unsignedLong,javaType=java.math.BigInteger,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1035079,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@983d95]
+2010-07-29 01:20:22,597 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}integer,javaType=java.math.BigInteger,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@f30494,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@b1cc87]
+2010-07-29 01:20:22,597 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}dateTime,javaType=java.util.Date,sf=org.jboss.ws.core.jaxrpc.binding.DateSerializerFactory@eaf40c,df=org.jboss.ws.core.jaxrpc.binding.DateDeserializerFactory@13c6641]
+2010-07-29 01:20:22,597 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}date,javaType=java.util.Calendar,sf=org.jboss.ws.core.jaxrpc.binding.CalendarSerializerFactory@5d391d,df=org.jboss.ws.core.jaxrpc.binding.CalendarDeserializerFactory@50a649]
+2010-07-29 01:20:22,597 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}time,javaType=java.util.Calendar,sf=org.jboss.ws.core.jaxrpc.binding.CalendarSerializerFactory@d507e9,df=org.jboss.ws.core.jaxrpc.binding.CalendarDeserializerFactory@1fa6d18]
+2010-07-29 01:20:22,597 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}dateTime,javaType=java.util.Calendar,sf=org.jboss.ws.core.jaxrpc.binding.CalendarSerializerFactory@1049d3,df=org.jboss.ws.core.jaxrpc.binding.CalendarDeserializerFactory@15ed659]
+2010-07-29 01:20:22,597 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}QName,javaType=javax.xml.namespace.QName,sf=org.jboss.ws.core.jaxrpc.binding.QNameSerializerFactory@14a7a12,df=org.jboss.ws.core.jaxrpc.binding.QNameDeserializerFactory@9444d1]
+2010-07-29 01:20:22,597 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}anySimpleType,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@32060c,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@2b323e]
+2010-07-29 01:20:22,597 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}duration,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1efb4be,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@435a3a]
+2010-07-29 01:20:22,597 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}gDay,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1d8c528,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@77eaf8]
+2010-07-29 01:20:22,597 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}gMonth,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@e35bb7,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@9a8a68]
+2010-07-29 01:20:22,597 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}gMonthDay,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1f4e571,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1038de7]
+2010-07-29 01:20:22,597 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}gYear,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@5976c2,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@183e7de]
+2010-07-29 01:20:22,598 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}gYearMonth,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@ebcdbb,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@10fe2b9]
+2010-07-29 01:20:22,598 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}ID,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1ee148b,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@186d484]
+2010-07-29 01:20:22,598 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}language,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@ea48be,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@14dd758]
+2010-07-29 01:20:22,598 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}Name,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@174d93a,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@61a907]
+2010-07-29 01:20:22,598 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}NCName,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1a0225b,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@2f8b5a]
+2010-07-29 01:20:22,598 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}NMTOKEN,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@165c7f6,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@12aea3e]
+2010-07-29 01:20:22,598 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}normalizedString,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@78bc3b,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@8ddc4c]
+2010-07-29 01:20:22,598 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}token,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@17a1767,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@968fda]
+2010-07-29 01:20:22,598 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}string,javaType=java.lang.String,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@be41ec,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@da2cef]
+2010-07-29 01:20:22,598 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}NMTOKENS,javaType=[Ljava.lang.String;,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1bc16f0,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@18622f3]
+2010-07-29 01:20:22,598 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}anyURI,javaType=java.net.URI,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@160877b,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@5eb489]
+2010-07-29 01:20:22,598 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}boolean,javaType=boolean,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@19ec4ed,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@92dcdb]
+2010-07-29 01:20:22,598 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}boolean,javaType=java.lang.Boolean,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1e1be92,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1a6684f]
+2010-07-29 01:20:22,598 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}byte,javaType=byte,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@a3d3b,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@3a1ec6]
+2010-07-29 01:20:22,598 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}byte,javaType=java.lang.Byte,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1ba6076,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@112e7f7]
+2010-07-29 01:20:22,598 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}hexBinary,javaType=[Ljava.lang.Byte;,sf=org.jboss.ws.core.jaxrpc.binding.HexSerializerFactory@3b1f38,df=org.jboss.ws.core.jaxrpc.binding.HexDeserializerFactory@17ec9f7]
+2010-07-29 01:20:22,599 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}hexBinary,javaType=[B,sf=org.jboss.ws.core.jaxrpc.binding.HexSerializerFactory@fd918a,df=org.jboss.ws.core.jaxrpc.binding.HexDeserializerFactory@15e2075]
+2010-07-29 01:20:22,599 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}base64Binary,javaType=[Ljava.lang.Byte;,sf=org.jboss.ws.core.jaxrpc.binding.Base64SerializerFactory@a522a6,df=org.jboss.ws.core.jaxrpc.binding.Base64DeserializerFactory@1860038]
+2010-07-29 01:20:22,599 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}base64Binary,javaType=[B,sf=org.jboss.ws.core.jaxrpc.binding.Base64SerializerFactory@787c16,df=org.jboss.ws.core.jaxrpc.binding.Base64DeserializerFactory@1a9d1b]
+2010-07-29 01:20:22,599 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}double,javaType=double,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@140984b,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1ce669e]
+2010-07-29 01:20:22,599 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}double,javaType=java.lang.Double,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1b33a0e,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1a8773c]
+2010-07-29 01:20:22,599 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}float,javaType=float,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@12c3327,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@d24e3f]
+2010-07-29 01:20:22,599 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}float,javaType=java.lang.Float,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@10f41e9,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@b05acd]
+2010-07-29 01:20:22,599 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}unsignedShort,javaType=int,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1989b5,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@a00185]
+2010-07-29 01:20:22,599 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}unsignedShort,javaType=java.lang.Integer,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@c3c315,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@3c9c31]
+2010-07-29 01:20:22,599 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}int,javaType=int,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1328c7a,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1a4ded3]
+2010-07-29 01:20:22,599 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}int,javaType=java.lang.Integer,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@121177e,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@18d7ace]
+2010-07-29 01:20:22,599 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}unsignedInt,javaType=long,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@179953c,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@134ce4a]
+2010-07-29 01:20:22,599 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}unsignedInt,javaType=java.lang.Long,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1d381d2,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@f01771]
+2010-07-29 01:20:22,599 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}long,javaType=long,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@933bcb,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@3ac93e]
+2010-07-29 01:20:22,599 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}long,javaType=java.lang.Long,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1722456,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@afa68a]
+2010-07-29 01:20:22,599 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}unsignedByte,javaType=short,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@1dec1dd,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@189c036]
+2010-07-29 01:20:22,600 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}unsignedByte,javaType=java.lang.Short,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@aa233f,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@1f01a29]
+2010-07-29 01:20:22,600 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}short,javaType=short,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@458f41,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@c01e99]
+2010-07-29 01:20:22,600 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}short,javaType=java.lang.Short,sf=org.jboss.ws.core.jaxrpc.binding.SimpleSerializerFactory@118fa47,df=org.jboss.ws.core.jaxrpc.binding.SimpleDeserializerFactory@d75415]
+2010-07-29 01:20:22,600 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.jboss.org/jbossws/attachment/mimetype}application_xml,javaType=javax.activation.DataHandler,sf=null,df=null]
+2010-07-29 01:20:22,600 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.jboss.org/jbossws/attachment/mimetype}image_gif,javaType=javax.activation.DataHandler,sf=null,df=null]
+2010-07-29 01:20:22,600 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.jboss.org/jbossws/attachment/mimetype}image_jpeg,javaType=javax.activation.DataHandler,sf=null,df=null]
+2010-07-29 01:20:22,600 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.jboss.org/jbossws/attachment/mimetype}text_plain,javaType=javax.activation.DataHandler,sf=null,df=null]
+2010-07-29 01:20:22,600 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.jboss.org/jbossws/attachment/mimetype}text_xml,javaType=javax.activation.DataHandler,sf=null,df=null]
+2010-07-29 01:20:22,600 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.jboss.org/jbossws/attachment/mimetype}multipart_mixed,javaType=javax.mail.internet.MimeMultipart,sf=null,df=null]
+2010-07-29 01:20:22,600 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}anyType,javaType=javax.xml.soap.SOAPElement,sf=org.jboss.ws.core.jaxrpc.binding.SOAPElementSerializerFactory@d16fc1,df=org.jboss.ws.core.jaxrpc.binding.SOAPElementDeserializerFactory@1eb0]
+2010-07-29 01:20:22,600 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@6011238 [xmlType={http://www.w3.org/2001/XMLSchema}anyType,javaType=org.w3c.dom.Element,sf=org.jboss.ws.core.jaxrpc.binding.ElementSerializerFactory@1dee400,df=org.jboss.ws.core.jaxrpc.binding.ElementDeserializerFactory@4ac216]
+2010-07-29 01:20:22,613 DEBUG [org.jboss.ws.tools.JavaToXSD] (main) Load schema: http://slsb.ejb3.examples.programmers.jp/=file:/tmp/JBossWS_slsb.ejb3.examples.programmers.jp_6805629018454637734.xsd
+2010-07-29 01:20:22,613 DEBUG [org.jboss.ws.core.utils.JBossWSEntityResolver] (main) resolveEntity: [pub=null,sysid=file:/tmp/JBossWS_slsb.ejb3.examples.programmers.jp_6805629018454637734.xsd]
+2010-07-29 01:20:22,614 TRACE [org.jboss.util.xml.JBossEntityResolver] (main) resolveSystemID, systemId=file:/tmp/JBossWS_slsb.ejb3.examples.programmers.jp_6805629018454637734.xsd
+2010-07-29 01:20:22,614 TRACE [org.jboss.util.xml.JBossEntityResolver] (main) resolveClasspathName, systemId=file:/tmp/JBossWS_slsb.ejb3.examples.programmers.jp_6805629018454637734.xsd
+2010-07-29 01:20:22,614 TRACE [org.jboss.util.xml.JBossEntityResolver] (main) Mapped systemId to filename: JBossWS_slsb.ejb3.examples.programmers.jp_6805629018454637734.xsd
+2010-07-29 01:20:22,614 TRACE [org.jboss.util.xml.JBossEntityResolver] (main) resolveSystemIDasURL, systemId=file:/tmp/JBossWS_slsb.ejb3.examples.programmers.jp_6805629018454637734.xsd
+2010-07-29 01:20:22,614 TRACE [org.jboss.util.xml.JBossEntityResolver] (main) Trying to resolve systemId as a URL
+2010-07-29 01:20:22,614 TRACE [org.jboss.util.xml.JBossEntityResolver] (main) Resolved systemId as a URL
+2010-07-29 01:20:22,638 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSEntityResolver] (main) Resolve entity: ::file:/tmp/JBossWS_slsb.ejb3.examples.programmers.jp_6805629018454637734.xsd::http://schemas.xmlsoap.org/soap/encoding/
+2010-07-29 01:20:22,638 DEBUG [org.jboss.ws.core.utils.JBossWSEntityResolver] (main) resolveEntity: [pub=http://schemas.xmlsoap.org/soap/encoding/,sysid=null]
+2010-07-29 01:20:22,638 TRACE [org.jboss.util.xml.JBossEntityResolver] (main) resolvePublicID, publicId=http://schemas.xmlsoap.org/soap/encoding/
+2010-07-29 01:20:22,638 TRACE [org.jboss.util.xml.JBossEntityResolver] (main) Found entity from publicId=http://schemas.xmlsoap.org/soap/encoding/ fileName=soap-encoding_1_1.xsd
+2010-07-29 01:20:22,639 TRACE [org.jboss.util.xml.JBossEntityResolver] (main) schema/soap-encoding_1_1.xsd maps to URL: jar:file:/home/nekop/usr/local/jboss-eap-4.3_CP08/jboss-as/client/jbossws-client.jar!/schema/soap-encoding_1_1.xsd
+2010-07-29 01:20:22,668 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: hello
+2010-07-29 01:20:22,668 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: helloResponse
+2010-07-29 01:20:22,668 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: byte
+2010-07-29 01:20:22,668 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: integer
+2010-07-29 01:20:22,668 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: ENTITY
+2010-07-29 01:20:22,668 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: ID
+2010-07-29 01:20:22,668 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: NCName
+2010-07-29 01:20:22,668 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: boolean
+2010-07-29 01:20:22,668 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: base64Binary
+2010-07-29 01:20:22,668 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: nonPositiveInteger
+2010-07-29 01:20:22,668 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: ENTITIES
+2010-07-29 01:20:22,668 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: NMTOKENS
+2010-07-29 01:20:22,668 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: gYearMonth
+2010-07-29 01:20:22,668 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: unsignedByte
+2010-07-29 01:20:22,668 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: arrayCoordinate
+2010-07-29 01:20:22,668 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: nonNegativeInteger
+2010-07-29 01:20:22,668 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: base64
+2010-07-29 01:20:22,668 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: Name
+2010-07-29 01:20:22,668 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: NOTATION
+2010-07-29 01:20:22,668 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: positiveInteger
+2010-07-29 01:20:22,668 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: duration
+2010-07-29 01:20:22,669 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: Array
+2010-07-29 01:20:22,669 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: gMonthDay
+2010-07-29 01:20:22,669 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: token
+2010-07-29 01:20:22,669 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: negativeInteger
+2010-07-29 01:20:22,669 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: double
+2010-07-29 01:20:22,669 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: IDREFS
+2010-07-29 01:20:22,669 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: float
+2010-07-29 01:20:22,669 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: Struct
+2010-07-29 01:20:22,669 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: date
+2010-07-29 01:20:22,669 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: long
+2010-07-29 01:20:22,669 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: normalizedString
+2010-07-29 01:20:22,669 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: anyURI
+2010-07-29 01:20:22,669 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: dateTime
+2010-07-29 01:20:22,669 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: string
+2010-07-29 01:20:22,669 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: unsignedInt
+2010-07-29 01:20:22,669 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: IDREF
+2010-07-29 01:20:22,669 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: unsignedShort
+2010-07-29 01:20:22,669 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: unsignedLong
+2010-07-29 01:20:22,669 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: QName
+2010-07-29 01:20:22,669 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: gMonth
+2010-07-29 01:20:22,669 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: gDay
+2010-07-29 01:20:22,669 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: hexBinary
+2010-07-29 01:20:22,669 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: gYear
+2010-07-29 01:20:22,669 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: time
+2010-07-29 01:20:22,669 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: decimal
+2010-07-29 01:20:22,669 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: int
+2010-07-29 01:20:22,669 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: language
+2010-07-29 01:20:22,669 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: short
+2010-07-29 01:20:22,669 TRACE [org.jboss.ws.metadata.wsdl.xmlschema.JBossXSNamespaceItem] (main) addXSTypeDefinition: NMTOKEN
+2010-07-29 01:20:22,673 TRACE [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) END processTypes: http://127.0.0.1:8080/example-ejb3/HelloSLSB?wsdl
+WSDLTypes:
+<schema targetNamespace='http://slsb.ejb3.examples.programmers.jp/' xmlns='http://www.w3.org/2001/XMLSchema' xmlns:soap11-enc='http://schemas.xmlsoap.org/soap/encoding/' xmlns:tns='http://slsb.ejb3.examples.programmers.jp/' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+ <complexType name='hello'/>
+ <complexType name='helloResponse'>
+  <sequence>
+   <element maxOccurs='1' minOccurs='0' name='return' type='string'/>
+  </sequence>
+ </complexType>
+ <element name='hello' type='tns:hello'/>
+ <element name='helloResponse' type='tns:helloResponse'/>
+</schema>
+
+2010-07-29 01:20:22,673 TRACE [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) BEGIN processServices: http://127.0.0.1:8080/example-ejb3/HelloSLSB?wsdl
+2010-07-29 01:20:22,674 TRACE [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) processPort: HelloSLSBPort
+2010-07-29 01:20:22,674 TRACE [org.jboss.ws.metadata.wsdl.WSDLEndpoint] (main) setBinding: {http://slsb.ejb3.examples.programmers.jp/}HelloSLSBBinding
+2010-07-29 01:20:22,675 TRACE [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) processBinding: {http://slsb.ejb3.examples.programmers.jp/}HelloSLSBBinding
+2010-07-29 01:20:22,675 TRACE [org.jboss.ws.metadata.wsdl.WSDLBinding] (main) setInterfaceName: {http://slsb.ejb3.examples.programmers.jp/}HelloSLSBBinding
+2010-07-29 01:20:22,675 TRACE [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) processPortType: {http://slsb.ejb3.examples.programmers.jp/}HelloSLSB
+2010-07-29 01:20:22,676 TRACE [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) processOperationInput: {http://slsb.ejb3.examples.programmers.jp/}HelloSLSB_hello
+2010-07-29 01:20:22,677 TRACE [org.jboss.ws.metadata.wsdl.WSDLInterfaceOperationInput] (main) New part for wsdlOperation: {http://slsb.ejb3.examples.programmers.jp/}hello
+2010-07-29 01:20:22,677 TRACE [org.jboss.ws.metadata.wsdl.WSDLInterfaceOperationInput] (main) New part for wsdlOperation: {http://slsb.ejb3.examples.programmers.jp/}hello
+2010-07-29 01:20:22,677 TRACE [org.jboss.ws.metadata.wsdl.WSDLInterfaceOperationInput] (main) setElement: {http://slsb.ejb3.examples.programmers.jp/}hello
+2010-07-29 01:20:22,678 TRACE [org.jboss.ws.metadata.wsdl.WSDLInterfaceOperation] (main) addProperty: [http://www.jboss.org/jbossws/messagename/in=HelloSLSB_hello]
+2010-07-29 01:20:22,678 TRACE [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) processOperationOutput: {http://slsb.ejb3.examples.programmers.jp/}HelloSLSB_helloResponse
+2010-07-29 01:20:22,678 TRACE [org.jboss.ws.metadata.wsdl.WSDLInterfaceOperationOutput] (main) New part for wsdlOperation: {http://slsb.ejb3.examples.programmers.jp/}hello
+2010-07-29 01:20:22,678 TRACE [org.jboss.ws.metadata.wsdl.WSDLInterfaceOperationOutput] (main) New part for wsdlOperation: {http://slsb.ejb3.examples.programmers.jp/}hello
+2010-07-29 01:20:22,678 TRACE [org.jboss.ws.metadata.wsdl.WSDLInterfaceOperationOutput] (main) setElement: {http://slsb.ejb3.examples.programmers.jp/}helloResponse
+2010-07-29 01:20:22,678 TRACE [org.jboss.ws.metadata.wsdl.WSDLInterfaceOperation] (main) addProperty: [http://www.jboss.org/jbossws/messagename/out=HelloSLSB_helloResponse]
+2010-07-29 01:20:22,679 TRACE [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) processBindingOperation: hello
+2010-07-29 01:20:22,679 TRACE [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) processBindingInput
+2010-07-29 01:20:22,680 TRACE [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) processEncodingStyle
+2010-07-29 01:20:22,680 TRACE [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) processBindingInput
+2010-07-29 01:20:22,680 TRACE [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) processEncodingStyle
+2010-07-29 01:20:22,680 TRACE [org.jboss.ws.tools.wsdl.WSDL11Reader] (main) END processServices: http://127.0.0.1:8080/example-ejb3/HelloSLSB?wsdl
+2010-07-29 01:20:22,691 TRACE [org.jboss.ws.tools.wsdl.WSDLDefinitionsFactory] (main) 
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions name="HelloSLSBService" targetNamespace="http://slsb.ejb3.examples.programmers.jp/" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://slsb.ejb3.examples.programmers.jp/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+  <types>
+    <xs:schema targetNamespace="http://slsb.ejb3.examples.programmers.jp/" version="1.0" xmlns:tns="http://slsb.ejb3.examples.programmers.jp/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:element name="hello" type="tns:hello"/>
+   <xs:element name="helloResponse" type="tns:helloResponse"/>
+   <xs:complexType name="hello">
+    <xs:sequence/>
+   </xs:complexType>
+   <xs:complexType name="helloResponse">
+    <xs:sequence>
+     <xs:element minOccurs="0" name="return" type="xs:string"/>
+    </xs:sequence>
+   </xs:complexType>
+  </xs:schema>
+  </types>
+  <message name="HelloSLSB_hello">
+    <part name="hello" element="tns:hello">
+    </part>
+  </message>
+  <message name="HelloSLSB_helloResponse">
+    <part name="helloResponse" element="tns:helloResponse">
+    </part>
+  </message>
+  <portType name="HelloSLSB">
+    <operation name="hello" parameterOrder="hello">
+      <input message="tns:HelloSLSB_hello">
+    </input>
+      <output message="tns:HelloSLSB_helloResponse">
+    </output>
+    </operation>
+  </portType>
+  <binding name="HelloSLSBBinding" type="tns:HelloSLSB">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <operation name="hello">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body use="literal"/>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+  </binding>
+  <service name="HelloSLSBService">
+    <port name="HelloSLSBPort" binding="tns:HelloSLSBBinding">
+      <soap:address location="http://127.0.0.1:8080/example-ejb3/HelloSLSB"/>
+    </port>
+  </service>
+</definitions>
+
+2010-07-29 01:20:22,695 TRACE [org.jboss.ws.metadata.umdm.EndpointMetaData] (main) setEncodingStyle: literal
+2010-07-29 01:20:22,697 TRACE [org.jboss.ws.metadata.umdm.OperationMetaData] (main) new OperationMetaData: [xmlName={http://slsb.ejb3.examples.programmers.jp/}hello,javaName={http://slsb.ejb3.examples.programmers.jp/}hello]
+2010-07-29 01:20:22,697 TRACE [org.jboss.ws.metadata.umdm.EndpointMetaData] (main) setStyle: document
+2010-07-29 01:20:22,720 DEBUG [org.jboss.ws.metadata.umdm.EndpointMetaData] (main) Using default parameter style: WRAPPED
+2010-07-29 01:20:22,721 DEBUG [org.jboss.ws.metadata.builder.jaxws.JAXWSWebServiceMetaDataBuilder] (main) END buildMetaData: 
+UnifiedMetaData: 
+ implementation: jbossws-native-2.0.1.SP2_CP08 (build=201003171618)
+ deploymentName: null
+ securityDomain: null
+
+ServiceMetaData:
+ qname={http://slsb.ejb3.examples.programmers.jp/}HelloSLSBService
+ refName=null
+ wsdName=null
+ wsdlFile=null
+ wsdlLocation=http://127.0.0.1:8080/example-ejb3/HelloSLSB?wsdl
+ jaxrpcMapping=null
+ publishLocation=null
+ securityConfig=null
+ properties=null
+
+TypesMetaData: 
+<schema targetNamespace='http://slsb.ejb3.examples.programmers.jp/' xmlns='http://www.w3.org/2001/XMLSchema' xmlns:soap11-enc='http://schemas.xmlsoap.org/soap/encoding/' xmlns:tns='http://slsb.ejb3.examples.programmers.jp/' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+ <complexType name='hello'/>
+ <complexType name='helloResponse'>
+  <sequence>
+   <element maxOccurs='1' minOccurs='0' name='return' type='string'/>
+  </sequence>
+ </complexType>
+ <element name='hello' type='tns:hello'/>
+ <element name='helloResponse' type='tns:helloResponse'/>
+</schema>
+
+
+ClientEndpointMetaData:
+ type=JAXWS
+ qname={http://slsb.ejb3.examples.programmers.jp/}HelloSLSBPort
+ address=http://127.0.0.1:8080/example-ejb3/HelloSLSB
+ binding=http://schemas.xmlsoap.org/wsdl/soap/http
+ seiName=null
+ configFile=META-INF/standard-jaxws-client-config.xml
+ configName=Standard Client
+ authMethod=null
+ properties={}
+
+OperationMetaData:
+ qname={http://slsb.ejb3.examples.programmers.jp/}hello
+ javaName={http://slsb.ejb3.examples.programmers.jp/}hello
+ style=document/literal/WRAPPED
+ oneWay=false
+ soapAction=
+2010-07-29 01:20:22,736 DEBUG [org.jboss.ws.metadata.builder.jaxws.JAXWSWebServiceMetaDataBuilder] (main) START: rebuildMetaData
+2010-07-29 01:20:22,749 DEBUG [org.jboss.ws.metadata.umdm.EndpointMetaData] (main) setParameterStyle: null
+2010-07-29 01:20:22,750 DEBUG [org.jboss.ws.metadata.umdm.EndpointMetaData] (main) Create new config [name=Standard Client,file=META-INF/standard-jaxws-client-config.xml]
+2010-07-29 01:20:22,752 DEBUG [org.jboss.ws.metadata.config.JBossWSConfigFactory] (main) getConfig: [name=Standard Client,url=META-INF/standard-jaxws-client-config.xml]
+2010-07-29 01:20:22,753 DEBUG [org.jboss.ws.metadata.config.JBossWSConfigFactory] (main) parse: jar:file:/home/nekop/usr/local/jboss-eap-4.3_CP08/jboss-as/client/jbossws-client.jar!/META-INF/standard-jaxws-client-config.xml
+2010-07-29 01:20:22,780 TRACE [org.jboss.util.xml.JBossEntityResolver] (main) resolveSystemID, systemId=file:///home/nekop/usr/src/java-examples/ejb3/jaxws-config_2_0.xsd
+2010-07-29 01:20:22,780 TRACE [org.jboss.util.xml.JBossEntityResolver] (main) resolveClasspathName, systemId=file:///home/nekop/usr/src/java-examples/ejb3/jaxws-config_2_0.xsd
+2010-07-29 01:20:22,780 TRACE [org.jboss.util.xml.JBossEntityResolver] (main) Mapped systemId to filename: jaxws-config_2_0.xsd
+2010-07-29 01:20:22,780 TRACE [org.jboss.util.xml.JBossEntityResolver] (main) schema/jaxws-config_2_0.xsd maps to URL: jar:file:/home/nekop/usr/local/jboss-eap-4.3_CP08/jboss-as/client/jbossws-client.jar!/schema/jaxws-config_2_0.xsd
+2010-07-29 01:20:22,783 TRACE [org.jboss.util.xml.JBossEntityResolver] (main) resolveSystemID, systemId=file:///home/nekop/usr/src/java-examples/ejb3/javaee_web_services_1_2.xsd
+2010-07-29 01:20:22,783 TRACE [org.jboss.util.xml.JBossEntityResolver] (main) resolveClasspathName, systemId=file:///home/nekop/usr/src/java-examples/ejb3/javaee_web_services_1_2.xsd
+2010-07-29 01:20:22,783 TRACE [org.jboss.util.xml.JBossEntityResolver] (main) Mapped systemId to filename: javaee_web_services_1_2.xsd
+2010-07-29 01:20:22,783 TRACE [org.jboss.util.xml.JBossEntityResolver] (main) schema/javaee_web_services_1_2.xsd maps to URL: jar:file:/home/nekop/usr/local/jboss-eap-4.3_CP08/jboss-as/client/jbossws-client.jar!/schema/javaee_web_services_1_2.xsd
+2010-07-29 01:20:22,796 TRACE [org.jboss.util.xml.JBossEntityResolver] (main) resolveSystemID, systemId=file:///home/nekop/usr/src/java-examples/ejb3/javaee_5.xsd
+2010-07-29 01:20:22,796 TRACE [org.jboss.util.xml.JBossEntityResolver] (main) resolveClasspathName, systemId=file:///home/nekop/usr/src/java-examples/ejb3/javaee_5.xsd
+2010-07-29 01:20:22,796 TRACE [org.jboss.util.xml.JBossEntityResolver] (main) Mapped systemId to filename: javaee_5.xsd
+2010-07-29 01:20:22,796 TRACE [org.jboss.util.xml.JBossEntityResolver] (main) schema/javaee_5.xsd maps to URL: jar:file:/home/nekop/usr/local/jboss-eap-4.3_CP08/jboss-as/client/jbossws-client.jar!/schema/javaee_5.xsd
+2010-07-29 01:20:22,844 TRACE [org.jboss.util.xml.JBossEntityResolver] (main) resolveSystemID, systemId=http://www.w3.org/2001/xml.xsd
+2010-07-29 01:20:22,844 TRACE [org.jboss.util.xml.JBossEntityResolver] (main) Found entity systemId=http://www.w3.org/2001/xml.xsd fileName=xml.xsd
+2010-07-29 01:20:22,845 TRACE [org.jboss.util.xml.JBossEntityResolver] (main) schema/xml.xsd maps to URL: jar:file:/home/nekop/usr/local/jboss-eap-4.3_CP08/jboss-as/client/jbossws-client.jar!/schema/xml.xsd
+2010-07-29 01:20:22,848 TRACE [org.jboss.util.xml.JBossEntityResolver] (main) resolveSystemID, systemId=file:///home/nekop/usr/src/java-examples/ejb3/javaee_web_services_client_1_2.xsd
+2010-07-29 01:20:22,849 TRACE [org.jboss.util.xml.JBossEntityResolver] (main) resolveClasspathName, systemId=file:///home/nekop/usr/src/java-examples/ejb3/javaee_web_services_client_1_2.xsd
+2010-07-29 01:20:22,849 TRACE [org.jboss.util.xml.JBossEntityResolver] (main) Mapped systemId to filename: javaee_web_services_client_1_2.xsd
+2010-07-29 01:20:22,851 TRACE [org.jboss.util.xml.JBossEntityResolver] (main) schema/javaee_web_services_client_1_2.xsd maps to URL: jar:file:/home/nekop/usr/local/jboss-eap-4.3_CP08/jboss-as/client/jbossws-client.jar!/schema/javaee_web_services_client_1_2.xsd
+2010-07-29 01:20:22,963 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter startElement urn:jboss:jaxws-config:2.0:jaxws-config
+2010-07-29 01:20:22,965 TRACE [org.jboss.xb.binding.ObjectModelBuilder] (main) accepted urn:jboss:jaxws-config:2.0:jaxws-config
+2010-07-29 01:20:22,965 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit startElement  urn:jboss:jaxws-config:2.0:jaxws-config
+2010-07-29 01:20:22,965 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter startElement urn:jboss:jaxws-config:2.0:client-config
+2010-07-29 01:20:22,965 TRACE [org.jboss.ws.metadata.config.binding.OMFactoryJAXWS] (main) WSConfig newChild: client-config
+2010-07-29 01:20:22,966 TRACE [org.jboss.xb.binding.ObjectModelBuilder] (main) accepted urn:jboss:jaxws-config:2.0:client-config
+2010-07-29 01:20:22,966 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit startElement  urn:jboss:jaxws-config:2.0:client-config
+2010-07-29 01:20:22,966 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter startElement urn:jboss:jaxws-config:2.0:config-name
+2010-07-29 01:20:22,966 TRACE [org.jboss.ws.metadata.config.binding.OMFactoryJAXWS] (main) CommonConfig newChild: config-name
+2010-07-29 01:20:22,966 TRACE [org.jboss.xb.binding.ObjectModelBuilder] (main) ignored urn:jboss:jaxws-config:2.0:config-name
+2010-07-29 01:20:22,966 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit startElement  urn:jboss:jaxws-config:2.0:config-name
+2010-07-29 01:20:22,966 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter endElement urn:jboss:jaxws-config:2.0:config-name
+2010-07-29 01:20:22,966 TRACE [org.jboss.ws.metadata.config.binding.OMFactoryJAXWS] (main) CommonConfig setValue: nuri=urn:jboss:jaxws-config:2.0 localName=config-name value=Standard Client
+2010-07-29 01:20:22,966 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit endElement  urn:jboss:jaxws-config:2.0:config-name
+2010-07-29 01:20:22,966 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter startElement urn:jboss:jaxws-config:2.0:feature
+2010-07-29 01:20:22,966 TRACE [org.jboss.ws.metadata.config.binding.OMFactoryJAXWS] (main) CommonConfig newChild: feature
+2010-07-29 01:20:22,967 TRACE [org.jboss.xb.binding.ObjectModelBuilder] (main) ignored urn:jboss:jaxws-config:2.0:feature
+2010-07-29 01:20:22,967 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit startElement  urn:jboss:jaxws-config:2.0:feature
+2010-07-29 01:20:22,970 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter endElement urn:jboss:jaxws-config:2.0:feature
+2010-07-29 01:20:22,970 TRACE [org.jboss.ws.metadata.config.binding.OMFactoryJAXWS] (main) CommonConfig setValue: nuri=urn:jboss:jaxws-config:2.0 localName=feature value=http://org.jboss.ws/dispatch/validate
+2010-07-29 01:20:22,970 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit endElement  urn:jboss:jaxws-config:2.0:feature
+2010-07-29 01:20:22,971 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter startElement urn:jboss:jaxws-config:2.0:property
+2010-07-29 01:20:22,971 TRACE [org.jboss.ws.metadata.config.binding.OMFactoryJAXWS] (main) CommonConfig newChild: property
+2010-07-29 01:20:22,971 TRACE [org.jboss.xb.binding.ObjectModelBuilder] (main) ignored urn:jboss:jaxws-config:2.0:property
+2010-07-29 01:20:22,971 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit startElement  urn:jboss:jaxws-config:2.0:property
+2010-07-29 01:20:22,971 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter startElement urn:jboss:jaxws-config:2.0:property-name
+2010-07-29 01:20:22,971 TRACE [org.jboss.ws.metadata.config.binding.OMFactoryJAXWS] (main) CommonConfig newChild: property-name
+2010-07-29 01:20:22,971 TRACE [org.jboss.xb.binding.ObjectModelBuilder] (main) ignored urn:jboss:jaxws-config:2.0:property-name
+2010-07-29 01:20:22,971 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit startElement  urn:jboss:jaxws-config:2.0:property-name
+2010-07-29 01:20:22,971 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter endElement urn:jboss:jaxws-config:2.0:property-name
+2010-07-29 01:20:22,971 TRACE [org.jboss.ws.metadata.config.binding.OMFactoryJAXWS] (main) CommonConfig setValue: nuri=urn:jboss:jaxws-config:2.0 localName=property-name value=http://org.jboss.ws/http#chunksize
+2010-07-29 01:20:22,972 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit endElement  urn:jboss:jaxws-config:2.0:property-name
+2010-07-29 01:20:22,972 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter startElement urn:jboss:jaxws-config:2.0:property-value
+2010-07-29 01:20:22,972 TRACE [org.jboss.ws.metadata.config.binding.OMFactoryJAXWS] (main) CommonConfig newChild: property-value
+2010-07-29 01:20:22,972 TRACE [org.jboss.xb.binding.ObjectModelBuilder] (main) ignored urn:jboss:jaxws-config:2.0:property-value
+2010-07-29 01:20:22,972 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit startElement  urn:jboss:jaxws-config:2.0:property-value
+2010-07-29 01:20:22,972 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter endElement urn:jboss:jaxws-config:2.0:property-value
+2010-07-29 01:20:22,973 TRACE [org.jboss.ws.metadata.config.binding.OMFactoryJAXWS] (main) CommonConfig setValue: nuri=urn:jboss:jaxws-config:2.0 localName=property-value value=2048
+2010-07-29 01:20:22,973 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit endElement  urn:jboss:jaxws-config:2.0:property-value
+2010-07-29 01:20:22,973 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter endElement urn:jboss:jaxws-config:2.0:property
+2010-07-29 01:20:22,973 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit endElement  urn:jboss:jaxws-config:2.0:property
+2010-07-29 01:20:22,973 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter endElement urn:jboss:jaxws-config:2.0:client-config
+2010-07-29 01:20:22,973 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit endElement  urn:jboss:jaxws-config:2.0:client-config
+2010-07-29 01:20:22,973 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter startElement urn:jboss:jaxws-config:2.0:client-config
+2010-07-29 01:20:22,973 TRACE [org.jboss.ws.metadata.config.binding.OMFactoryJAXWS] (main) WSConfig newChild: client-config
+2010-07-29 01:20:22,973 TRACE [org.jboss.xb.binding.ObjectModelBuilder] (main) accepted urn:jboss:jaxws-config:2.0:client-config
+2010-07-29 01:20:22,973 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit startElement  urn:jboss:jaxws-config:2.0:client-config
+2010-07-29 01:20:22,973 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter startElement urn:jboss:jaxws-config:2.0:config-name
+2010-07-29 01:20:22,973 TRACE [org.jboss.ws.metadata.config.binding.OMFactoryJAXWS] (main) CommonConfig newChild: config-name
+2010-07-29 01:20:22,973 TRACE [org.jboss.xb.binding.ObjectModelBuilder] (main) ignored urn:jboss:jaxws-config:2.0:config-name
+2010-07-29 01:20:22,974 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit startElement  urn:jboss:jaxws-config:2.0:config-name
+2010-07-29 01:20:22,974 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter endElement urn:jboss:jaxws-config:2.0:config-name
+2010-07-29 01:20:22,974 TRACE [org.jboss.ws.metadata.config.binding.OMFactoryJAXWS] (main) CommonConfig setValue: nuri=urn:jboss:jaxws-config:2.0 localName=config-name value=HTTP 1.0 Client
+2010-07-29 01:20:22,974 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit endElement  urn:jboss:jaxws-config:2.0:config-name
+2010-07-29 01:20:22,974 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter startElement urn:jboss:jaxws-config:2.0:feature
+2010-07-29 01:20:22,974 TRACE [org.jboss.ws.metadata.config.binding.OMFactoryJAXWS] (main) CommonConfig newChild: feature
+2010-07-29 01:20:22,974 TRACE [org.jboss.xb.binding.ObjectModelBuilder] (main) ignored urn:jboss:jaxws-config:2.0:feature
+2010-07-29 01:20:22,974 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit startElement  urn:jboss:jaxws-config:2.0:feature
+2010-07-29 01:20:22,974 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter endElement urn:jboss:jaxws-config:2.0:feature
+2010-07-29 01:20:22,974 TRACE [org.jboss.ws.metadata.config.binding.OMFactoryJAXWS] (main) CommonConfig setValue: nuri=urn:jboss:jaxws-config:2.0 localName=feature value=http://org.jboss.ws/dispatch/validate
+2010-07-29 01:20:22,974 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit endElement  urn:jboss:jaxws-config:2.0:feature
+2010-07-29 01:20:22,974 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter endElement urn:jboss:jaxws-config:2.0:client-config
+2010-07-29 01:20:22,975 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit endElement  urn:jboss:jaxws-config:2.0:client-config
+2010-07-29 01:20:22,975 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter startElement urn:jboss:jaxws-config:2.0:client-config
+2010-07-29 01:20:22,975 TRACE [org.jboss.ws.metadata.config.binding.OMFactoryJAXWS] (main) WSConfig newChild: client-config
+2010-07-29 01:20:22,975 TRACE [org.jboss.xb.binding.ObjectModelBuilder] (main) accepted urn:jboss:jaxws-config:2.0:client-config
+2010-07-29 01:20:22,975 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit startElement  urn:jboss:jaxws-config:2.0:client-config
+2010-07-29 01:20:22,975 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter startElement urn:jboss:jaxws-config:2.0:config-name
+2010-07-29 01:20:22,975 TRACE [org.jboss.ws.metadata.config.binding.OMFactoryJAXWS] (main) CommonConfig newChild: config-name
+2010-07-29 01:20:22,975 TRACE [org.jboss.xb.binding.ObjectModelBuilder] (main) ignored urn:jboss:jaxws-config:2.0:config-name
+2010-07-29 01:20:22,975 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit startElement  urn:jboss:jaxws-config:2.0:config-name
+2010-07-29 01:20:22,975 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter endElement urn:jboss:jaxws-config:2.0:config-name
+2010-07-29 01:20:22,975 TRACE [org.jboss.ws.metadata.config.binding.OMFactoryJAXWS] (main) CommonConfig setValue: nuri=urn:jboss:jaxws-config:2.0 localName=config-name value=Standard WSAddressing Client
+2010-07-29 01:20:22,975 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit endElement  urn:jboss:jaxws-config:2.0:config-name
+2010-07-29 01:20:22,975 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter startElement urn:jboss:jaxws-config:2.0:post-handler-chains
+2010-07-29 01:20:22,976 TRACE [org.jboss.ws.metadata.config.binding.OMFactoryJAXWS] (main) CommonConfig newChild: post-handler-chains
+2010-07-29 01:20:22,976 TRACE [org.jboss.xb.binding.ObjectModelBuilder] (main) accepted urn:jboss:jaxws-config:2.0:post-handler-chains
+2010-07-29 01:20:22,976 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit startElement  urn:jboss:jaxws-config:2.0:post-handler-chains
+2010-07-29 01:20:22,976 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter startElement http://java.sun.com/xml/ns/javaee:handler-chain
+2010-07-29 01:20:22,976 TRACE [org.jboss.ws.metadata.config.binding.OMFactoryJAXWS] (main) WSHandlerChainsConfig newChild: handler-chain
+2010-07-29 01:20:22,976 TRACE [org.jboss.xb.binding.ObjectModelBuilder] (main) accepted http://java.sun.com/xml/ns/javaee:javaee:handler-chain
+2010-07-29 01:20:22,976 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit startElement  http://java.sun.com/xml/ns/javaee:handler-chain
+2010-07-29 01:20:22,976 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter startElement http://java.sun.com/xml/ns/javaee:protocol-bindings
+2010-07-29 01:20:22,976 TRACE [org.jboss.xb.binding.ObjectModelBuilder] (main) ignored http://java.sun.com/xml/ns/javaee:javaee:protocol-bindings
+2010-07-29 01:20:22,976 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit startElement  http://java.sun.com/xml/ns/javaee:protocol-bindings
+2010-07-29 01:20:22,977 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter endElement http://java.sun.com/xml/ns/javaee:protocol-bindings
+2010-07-29 01:20:22,977 TRACE [org.jboss.wsf.spi.metadata.j2ee.serviceref.HandlerChainsObjectFactory] (main) UnifiedHandlerChainMetaData setValue: nuri=http://java.sun.com/xml/ns/javaee localName=protocol-bindings value=##SOAP11_HTTP
+2010-07-29 01:20:22,977 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit endElement  http://java.sun.com/xml/ns/javaee:protocol-bindings
+2010-07-29 01:20:22,977 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter startElement http://java.sun.com/xml/ns/javaee:handler
+2010-07-29 01:20:22,978 TRACE [org.jboss.xb.binding.ObjectModelBuilder] (main) accepted http://java.sun.com/xml/ns/javaee:javaee:handler
+2010-07-29 01:20:22,978 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit startElement  http://java.sun.com/xml/ns/javaee:handler
+2010-07-29 01:20:22,978 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter startElement http://java.sun.com/xml/ns/javaee:handler-name
+2010-07-29 01:20:22,978 TRACE [org.jboss.xb.binding.ObjectModelBuilder] (main) ignored http://java.sun.com/xml/ns/javaee:javaee:handler-name
+2010-07-29 01:20:22,978 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit startElement  http://java.sun.com/xml/ns/javaee:handler-name
+2010-07-29 01:20:22,978 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter endElement http://java.sun.com/xml/ns/javaee:handler-name
+2010-07-29 01:20:22,978 TRACE [org.jboss.wsf.spi.metadata.j2ee.serviceref.HandlerChainsObjectFactory] (main) UnifiedHandlerMetaData setValue: nuri=http://java.sun.com/xml/ns/javaee localName=handler-name value=WSAddressing Handler
+2010-07-29 01:20:22,978 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit endElement  http://java.sun.com/xml/ns/javaee:handler-name
+2010-07-29 01:20:22,978 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter startElement http://java.sun.com/xml/ns/javaee:handler-class
+2010-07-29 01:20:22,978 TRACE [org.jboss.xb.binding.ObjectModelBuilder] (main) ignored http://java.sun.com/xml/ns/javaee:javaee:handler-class
+2010-07-29 01:20:22,978 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit startElement  http://java.sun.com/xml/ns/javaee:handler-class
+2010-07-29 01:20:22,978 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter endElement http://java.sun.com/xml/ns/javaee:handler-class
+2010-07-29 01:20:22,979 TRACE [org.jboss.wsf.spi.metadata.j2ee.serviceref.HandlerChainsObjectFactory] (main) UnifiedHandlerMetaData setValue: nuri=http://java.sun.com/xml/ns/javaee localName=handler-class value=org.jboss.ws.extensions.addressing.jaxws.WSAddressingClientHandler
+2010-07-29 01:20:22,979 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit endElement  http://java.sun.com/xml/ns/javaee:handler-class
+2010-07-29 01:20:22,979 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter endElement http://java.sun.com/xml/ns/javaee:handler
+2010-07-29 01:20:22,979 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit endElement  http://java.sun.com/xml/ns/javaee:handler
+2010-07-29 01:20:22,979 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter endElement http://java.sun.com/xml/ns/javaee:handler-chain
+2010-07-29 01:20:22,979 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit endElement  http://java.sun.com/xml/ns/javaee:handler-chain
+2010-07-29 01:20:22,979 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter endElement urn:jboss:jaxws-config:2.0:post-handler-chains
+2010-07-29 01:20:22,979 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit endElement  urn:jboss:jaxws-config:2.0:post-handler-chains
+2010-07-29 01:20:22,979 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter endElement urn:jboss:jaxws-config:2.0:client-config
+2010-07-29 01:20:22,979 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit endElement  urn:jboss:jaxws-config:2.0:client-config
+2010-07-29 01:20:22,979 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter startElement urn:jboss:jaxws-config:2.0:client-config
+2010-07-29 01:20:22,979 TRACE [org.jboss.ws.metadata.config.binding.OMFactoryJAXWS] (main) WSConfig newChild: client-config
+2010-07-29 01:20:22,979 TRACE [org.jboss.xb.binding.ObjectModelBuilder] (main) accepted urn:jboss:jaxws-config:2.0:client-config
+2010-07-29 01:20:22,979 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit startElement  urn:jboss:jaxws-config:2.0:client-config
+2010-07-29 01:20:22,979 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter startElement urn:jboss:jaxws-config:2.0:config-name
+2010-07-29 01:20:22,980 TRACE [org.jboss.ws.metadata.config.binding.OMFactoryJAXWS] (main) CommonConfig newChild: config-name
+2010-07-29 01:20:22,980 TRACE [org.jboss.xb.binding.ObjectModelBuilder] (main) ignored urn:jboss:jaxws-config:2.0:config-name
+2010-07-29 01:20:22,980 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit startElement  urn:jboss:jaxws-config:2.0:config-name
+2010-07-29 01:20:22,980 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter endElement urn:jboss:jaxws-config:2.0:config-name
+2010-07-29 01:20:22,980 TRACE [org.jboss.ws.metadata.config.binding.OMFactoryJAXWS] (main) CommonConfig setValue: nuri=urn:jboss:jaxws-config:2.0 localName=config-name value=Standard WSSecurity Client
+2010-07-29 01:20:22,980 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit endElement  urn:jboss:jaxws-config:2.0:config-name
+2010-07-29 01:20:22,980 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter startElement urn:jboss:jaxws-config:2.0:post-handler-chains
+2010-07-29 01:20:22,980 TRACE [org.jboss.ws.metadata.config.binding.OMFactoryJAXWS] (main) CommonConfig newChild: post-handler-chains
+2010-07-29 01:20:22,980 TRACE [org.jboss.xb.binding.ObjectModelBuilder] (main) accepted urn:jboss:jaxws-config:2.0:post-handler-chains
+2010-07-29 01:20:22,980 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit startElement  urn:jboss:jaxws-config:2.0:post-handler-chains
+2010-07-29 01:20:22,980 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter startElement http://java.sun.com/xml/ns/javaee:handler-chain
+2010-07-29 01:20:22,980 TRACE [org.jboss.ws.metadata.config.binding.OMFactoryJAXWS] (main) WSHandlerChainsConfig newChild: handler-chain
+2010-07-29 01:20:22,980 TRACE [org.jboss.xb.binding.ObjectModelBuilder] (main) accepted http://java.sun.com/xml/ns/javaee:javaee:handler-chain
+2010-07-29 01:20:22,980 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit startElement  http://java.sun.com/xml/ns/javaee:handler-chain
+2010-07-29 01:20:22,980 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter startElement http://java.sun.com/xml/ns/javaee:protocol-bindings
+2010-07-29 01:20:22,980 TRACE [org.jboss.xb.binding.ObjectModelBuilder] (main) ignored http://java.sun.com/xml/ns/javaee:javaee:protocol-bindings
+2010-07-29 01:20:22,980 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit startElement  http://java.sun.com/xml/ns/javaee:protocol-bindings
+2010-07-29 01:20:22,981 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter endElement http://java.sun.com/xml/ns/javaee:protocol-bindings
+2010-07-29 01:20:22,981 TRACE [org.jboss.wsf.spi.metadata.j2ee.serviceref.HandlerChainsObjectFactory] (main) UnifiedHandlerChainMetaData setValue: nuri=http://java.sun.com/xml/ns/javaee localName=protocol-bindings value=##SOAP11_HTTP
+2010-07-29 01:20:22,981 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit endElement  http://java.sun.com/xml/ns/javaee:protocol-bindings
+2010-07-29 01:20:22,981 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter startElement http://java.sun.com/xml/ns/javaee:handler
+2010-07-29 01:20:22,981 TRACE [org.jboss.xb.binding.ObjectModelBuilder] (main) accepted http://java.sun.com/xml/ns/javaee:javaee:handler
+2010-07-29 01:20:22,981 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit startElement  http://java.sun.com/xml/ns/javaee:handler
+2010-07-29 01:20:22,981 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter startElement http://java.sun.com/xml/ns/javaee:handler-name
+2010-07-29 01:20:22,981 TRACE [org.jboss.xb.binding.ObjectModelBuilder] (main) ignored http://java.sun.com/xml/ns/javaee:javaee:handler-name
+2010-07-29 01:20:22,981 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit startElement  http://java.sun.com/xml/ns/javaee:handler-name
+2010-07-29 01:20:22,981 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter endElement http://java.sun.com/xml/ns/javaee:handler-name
+2010-07-29 01:20:22,981 TRACE [org.jboss.wsf.spi.metadata.j2ee.serviceref.HandlerChainsObjectFactory] (main) UnifiedHandlerMetaData setValue: nuri=http://java.sun.com/xml/ns/javaee localName=handler-name value=WSSecurityHandlerOutbound
+2010-07-29 01:20:22,981 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit endElement  http://java.sun.com/xml/ns/javaee:handler-name
+2010-07-29 01:20:22,981 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter startElement http://java.sun.com/xml/ns/javaee:handler-class
+2010-07-29 01:20:22,981 TRACE [org.jboss.xb.binding.ObjectModelBuilder] (main) ignored http://java.sun.com/xml/ns/javaee:javaee:handler-class
+2010-07-29 01:20:22,981 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit startElement  http://java.sun.com/xml/ns/javaee:handler-class
+2010-07-29 01:20:22,981 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter endElement http://java.sun.com/xml/ns/javaee:handler-class
+2010-07-29 01:20:22,981 TRACE [org.jboss.wsf.spi.metadata.j2ee.serviceref.HandlerChainsObjectFactory] (main) UnifiedHandlerMetaData setValue: nuri=http://java.sun.com/xml/ns/javaee localName=handler-class value=org.jboss.ws.extensions.security.jaxws.WSSecurityHandlerClient
+2010-07-29 01:20:22,981 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit endElement  http://java.sun.com/xml/ns/javaee:handler-class
+2010-07-29 01:20:22,981 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter endElement http://java.sun.com/xml/ns/javaee:handler
+2010-07-29 01:20:22,982 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit endElement  http://java.sun.com/xml/ns/javaee:handler
+2010-07-29 01:20:22,982 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter endElement http://java.sun.com/xml/ns/javaee:handler-chain
+2010-07-29 01:20:22,982 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit endElement  http://java.sun.com/xml/ns/javaee:handler-chain
+2010-07-29 01:20:22,982 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter endElement urn:jboss:jaxws-config:2.0:post-handler-chains
+2010-07-29 01:20:22,982 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit endElement  urn:jboss:jaxws-config:2.0:post-handler-chains
+2010-07-29 01:20:22,982 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter endElement urn:jboss:jaxws-config:2.0:client-config
+2010-07-29 01:20:22,982 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit endElement  urn:jboss:jaxws-config:2.0:client-config
+2010-07-29 01:20:22,982 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Enter endElement urn:jboss:jaxws-config:2.0:jaxws-config
+2010-07-29 01:20:22,982 TRACE [org.jboss.xb.binding.parser.sax.SaxJBossXBParser] (main) Exit endElement  urn:jboss:jaxws-config:2.0:jaxws-config
+2010-07-29 01:20:22,983 DEBUG [org.jboss.ws.metadata.umdm.EndpointConfigMetaData] (main) Configure EndpointMetaData
+2010-07-29 01:20:22,983 DEBUG [org.jboss.ws.metadata.umdm.EndpointConfigMetaData] (main) Added 0 PRE handlers
+2010-07-29 01:20:22,983 DEBUG [org.jboss.ws.metadata.umdm.EndpointConfigMetaData] (main) Added 0 ENDPOINT handlers
+2010-07-29 01:20:22,983 DEBUG [org.jboss.ws.metadata.umdm.EndpointConfigMetaData] (main) Added 0 POST handlers
+2010-07-29 01:20:22,983 TRACE [org.jboss.ws.metadata.umdm.OperationMetaData] (main) new OperationMetaData: [xmlName={http://slsb.ejb3.examples.programmers.jp/}exception,javaName=exception]
+2010-07-29 01:20:22,985 DEBUG [org.jboss.ws.metadata.umdm.EndpointMetaData] (main) Using default parameter style: WRAPPED
+2010-07-29 01:20:22,989 TRACE [org.jboss.ws.metadata.umdm.OperationMetaData] (main) addParameter: [xmlName={http://slsb.ejb3.examples.programmers.jp/}exception,xmlType={http://slsb.ejb3.examples.programmers.jp/}exception]
+2010-07-29 01:20:22,989 TRACE [org.jboss.ws.metadata.umdm.OperationMetaData] (main) setReturnParameter: 
+ParameterMetaData:
+ xmlName={http://slsb.ejb3.examples.programmers.jp/}exceptionResponse
+ partName=exceptionResponse
+ xmlType={http://slsb.ejb3.examples.programmers.jp/}exceptionResponse
+ javaType=jp.programmers.examples.ejb3.slsb.jaxws.ExceptionResponse
+ mode=IN
+ inHeader=false
+ index=0
+2010-07-29 01:20:22,989 DEBUG [org.jboss.ws.core.jaxws.DynamicWrapperGenerator] (main) Generating wrapper: jp.programmers.examples.ejb3.slsb.jaxws.Exception
+2010-07-29 01:20:23,065 TRACE [org.jboss.ws.metadata.umdm.TypesMetaData] (main) Add type mapping: [complexType={http://slsb.ejb3.examples.programmers.jp/}exception,javaType=jp.programmers.examples.ejb3.slsb.jaxws.Exception]
+2010-07-29 01:20:23,066 DEBUG [org.jboss.ws.core.jaxws.DynamicWrapperGenerator] (main) Generating wrapper: jp.programmers.examples.ejb3.slsb.jaxws.ExceptionResponse
+2010-07-29 01:20:23,067 TRACE [org.jboss.ws.metadata.umdm.TypesMetaData] (main) Add type mapping: [complexType={http://slsb.ejb3.examples.programmers.jp/}exceptionResponse,javaType=jp.programmers.examples.ejb3.slsb.jaxws.ExceptionResponse]
+2010-07-29 01:20:23,077 TRACE [org.jboss.ws.metadata.umdm.OperationMetaData] (main) new OperationMetaData: [xmlName={http://slsb.ejb3.examples.programmers.jp/}hello,javaName=hello]
+2010-07-29 01:20:23,077 TRACE [org.jboss.ws.metadata.umdm.OperationMetaData] (main) addParameter: [xmlName={http://slsb.ejb3.examples.programmers.jp/}hello,xmlType={http://slsb.ejb3.examples.programmers.jp/}hello]
+2010-07-29 01:20:23,078 TRACE [org.jboss.ws.metadata.umdm.OperationMetaData] (main) setReturnParameter: 
+ParameterMetaData:
+ xmlName={http://slsb.ejb3.examples.programmers.jp/}helloResponse
+ partName=helloResponse
+ xmlType={http://slsb.ejb3.examples.programmers.jp/}helloResponse
+ javaType=jp.programmers.examples.ejb3.slsb.jaxws.HelloResponse
+ mode=IN
+ inHeader=false
+ index=0
+2010-07-29 01:20:23,087 DEBUG [org.jboss.ws.core.jaxws.DynamicWrapperGenerator] (main) Generating wrapper: jp.programmers.examples.ejb3.slsb.jaxws.Hello
+2010-07-29 01:20:23,088 TRACE [org.jboss.ws.metadata.umdm.TypesMetaData] (main) Add type mapping: [complexType={http://slsb.ejb3.examples.programmers.jp/}hello,javaType=jp.programmers.examples.ejb3.slsb.jaxws.Hello]
+2010-07-29 01:20:23,088 DEBUG [org.jboss.ws.core.jaxws.DynamicWrapperGenerator] (main) Generating wrapper: jp.programmers.examples.ejb3.slsb.jaxws.HelloResponse
+2010-07-29 01:20:23,095 TRACE [org.jboss.ws.metadata.umdm.TypesMetaData] (main) Add type mapping: [complexType={http://slsb.ejb3.examples.programmers.jp/}helloResponse,javaType=jp.programmers.examples.ejb3.slsb.jaxws.HelloResponse]
+2010-07-29 01:20:23,095 DEBUG [org.jboss.ws.metadata.builder.jaxws.JAXWSWebServiceMetaDataBuilder] (main) JAXBContext [types=[class jp.programmers.examples.ejb3.slsb.jaxws.Exception, class jp.programmers.examples.ejb3.slsb.jaxws.ExceptionResponse, class jp.programmers.examples.ejb3.slsb.jaxws.Hello, class jp.programmers.examples.ejb3.slsb.jaxws.HelloResponse],tns=http://slsb.ejb3.examples.programmers.jp/]
+2010-07-29 01:20:23,266 TRACE [org.jboss.ws.metadata.umdm.OperationMetaData] (main) Found java method: public abstract void jp.programmers.examples.ejb3.slsb.Hello.exception()
+2010-07-29 01:20:23,266 DEBUG [org.jboss.ws.metadata.umdm.OperationMetaData] (main) Found best matching java method: public abstract void jp.programmers.examples.ejb3.slsb.Hello.exception()
+2010-07-29 01:20:23,266 TRACE [org.jboss.ws.metadata.umdm.OperationMetaData] (main) Synchronized java method:
+public abstract void jp.programmers.examples.ejb3.slsb.Hello.exception()
+with: 
+OperationMetaData:
+ qname={http://slsb.ejb3.examples.programmers.jp/}exception
+ javaName=exception
+ style=document/literal/WRAPPED
+ oneWay=false
+ soapAction=
+ParameterMetaData:
+ xmlName={http://slsb.ejb3.examples.programmers.jp/}exception
+ partName=exception
+ xmlType={http://slsb.ejb3.examples.programmers.jp/}exception
+ javaType=jp.programmers.examples.ejb3.slsb.jaxws.Exception
+ mode=IN
+ inHeader=false
+ index=0
+ wrappedParameters=[]
+ReturnMetaData:
+ xmlName={http://slsb.ejb3.examples.programmers.jp/}exceptionResponse
+ partName=exceptionResponse
+ xmlType={http://slsb.ejb3.examples.programmers.jp/}exceptionResponse
+ javaType=jp.programmers.examples.ejb3.slsb.jaxws.ExceptionResponse
+ mode=OUT
+ inHeader=false
+ index=-1
+ wrappedParameters=[]
+2010-07-29 01:20:23,267 TRACE [org.jboss.ws.metadata.umdm.OperationMetaData] (main) Found java method: public abstract java.lang.String jp.programmers.examples.ejb3.slsb.Hello.hello()
+2010-07-29 01:20:23,267 DEBUG [org.jboss.ws.metadata.umdm.OperationMetaData] (main) Found best matching java method: public abstract java.lang.String jp.programmers.examples.ejb3.slsb.Hello.hello()
+2010-07-29 01:20:23,267 TRACE [org.jboss.ws.metadata.umdm.OperationMetaData] (main) Synchronized java method:
+public abstract java.lang.String jp.programmers.examples.ejb3.slsb.Hello.hello()
+with: 
+OperationMetaData:
+ qname={http://slsb.ejb3.examples.programmers.jp/}hello
+ javaName=hello
+ style=document/literal/WRAPPED
+ oneWay=false
+ soapAction=
+ParameterMetaData:
+ xmlName={http://slsb.ejb3.examples.programmers.jp/}hello
+ partName=hello
+ xmlType={http://slsb.ejb3.examples.programmers.jp/}hello
+ javaType=jp.programmers.examples.ejb3.slsb.jaxws.Hello
+ mode=IN
+ inHeader=false
+ index=0
+ wrappedParameters=[]
+ReturnMetaData:
+ xmlName={http://slsb.ejb3.examples.programmers.jp/}helloResponse
+ partName=helloResponse
+ xmlType={http://slsb.ejb3.examples.programmers.jp/}helloResponse
+ javaType=jp.programmers.examples.ejb3.slsb.jaxws.HelloResponse
+ mode=OUT
+ inHeader=false
+ index=-1
+ wrappedParameters=[[name = return, type = java.lang.String, typeArgs = null, variable = return, index = -1]]
+2010-07-29 01:20:23,269 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://slsb.ejb3.examples.programmers.jp/}exception,javaType=jp.programmers.examples.ejb3.slsb.jaxws.Exception,sf=org.jboss.ws.core.jaxws.JAXBSerializerFactory@14c5b37,df=org.jboss.ws.core.jaxws.JAXBDeserializerFactory@1f8acdc]
+2010-07-29 01:20:23,269 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://slsb.ejb3.examples.programmers.jp/}exceptionResponse,javaType=jp.programmers.examples.ejb3.slsb.jaxws.ExceptionResponse,sf=org.jboss.ws.core.jaxws.JAXBSerializerFactory@11cc367,df=org.jboss.ws.core.jaxws.JAXBDeserializerFactory@160c4b0]
+2010-07-29 01:20:23,269 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://slsb.ejb3.examples.programmers.jp/}hello,javaType=jp.programmers.examples.ejb3.slsb.jaxws.Hello,sf=org.jboss.ws.core.jaxws.JAXBSerializerFactory@114025,df=org.jboss.ws.core.jaxws.JAXBDeserializerFactory@8a52b6]
+2010-07-29 01:20:23,270 TRACE [org.jboss.ws.core.binding.TypeMappingImpl] (main) register: TypeMappingImpl@8442367 [xmlType={http://slsb.ejb3.examples.programmers.jp/}helloResponse,javaType=jp.programmers.examples.ejb3.slsb.jaxws.HelloResponse,sf=org.jboss.ws.core.jaxws.JAXBSerializerFactory@13c550f,df=org.jboss.ws.core.jaxws.JAXBDeserializerFactory@1f488f1]
+2010-07-29 01:20:23,276 DEBUG [org.jboss.ws.metadata.builder.jaxws.JAXWSWebServiceMetaDataBuilder] (main) END: rebuildMetaData
+
+ServiceMetaData:
+ qname={http://slsb.ejb3.examples.programmers.jp/}HelloSLSBService
+ refName=null
+ wsdName=null
+ wsdlFile=null
+ wsdlLocation=http://127.0.0.1:8080/example-ejb3/HelloSLSB?wsdl
+ jaxrpcMapping=null
+ publishLocation=null
+ securityConfig=null
+ properties=null
+
+TypesMetaData: 
+  [complexType={http://slsb.ejb3.examples.programmers.jp/}exception,javaType=jp.programmers.examples.ejb3.slsb.jaxws.Exception]
+  [complexType={http://slsb.ejb3.examples.programmers.jp/}exceptionResponse,javaType=jp.programmers.examples.ejb3.slsb.jaxws.ExceptionResponse]
+  [complexType={http://slsb.ejb3.examples.programmers.jp/}hello,javaType=jp.programmers.examples.ejb3.slsb.jaxws.Hello]
+  [complexType={http://slsb.ejb3.examples.programmers.jp/}helloResponse,javaType=jp.programmers.examples.ejb3.slsb.jaxws.HelloResponse]
+<schema targetNamespace='http://slsb.ejb3.examples.programmers.jp/' xmlns='http://www.w3.org/2001/XMLSchema' xmlns:soap11-enc='http://schemas.xmlsoap.org/soap/encoding/' xmlns:tns='http://slsb.ejb3.examples.programmers.jp/' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+ <complexType name='hello'/>
+ <complexType name='helloResponse'>
+  <sequence>
+   <element maxOccurs='1' minOccurs='0' name='return' type='string'/>
+  </sequence>
+ </complexType>
+ <element name='hello' type='tns:hello'/>
+ <element name='helloResponse' type='tns:helloResponse'/>
+</schema>
+
+
+ClientEndpointMetaData:
+ type=JAXWS
+ qname={http://slsb.ejb3.examples.programmers.jp/}HelloSLSBPort
+ address=http://127.0.0.1:8080/example-ejb3/HelloSLSB
+ binding=http://schemas.xmlsoap.org/wsdl/soap/http
+ seiName=jp.programmers.examples.ejb3.slsb.Hello
+ configFile=META-INF/standard-jaxws-client-config.xml
+ configName=Standard Client
+ authMethod=null
+ properties={}
+
+OperationMetaData:
+ qname={http://slsb.ejb3.examples.programmers.jp/}exception
+ javaName=exception
+ style=document/literal/WRAPPED
+ oneWay=false
+ soapAction=
+ParameterMetaData:
+ xmlName={http://slsb.ejb3.examples.programmers.jp/}exception
+ partName=exception
+ xmlType={http://slsb.ejb3.examples.programmers.jp/}exception
+ javaType=jp.programmers.examples.ejb3.slsb.jaxws.Exception
+ mode=IN
+ inHeader=false
+ index=0
+ wrappedParameters=[]
+ReturnMetaData:
+ xmlName={http://slsb.ejb3.examples.programmers.jp/}exceptionResponse
+ partName=exceptionResponse
+ xmlType={http://slsb.ejb3.examples.programmers.jp/}exceptionResponse
+ javaType=jp.programmers.examples.ejb3.slsb.jaxws.ExceptionResponse
+ mode=OUT
+ inHeader=false
+ index=-1
+ wrappedParameters=[]
+
+OperationMetaData:
+ qname={http://slsb.ejb3.examples.programmers.jp/}hello
+ javaName=hello
+ style=document/literal/WRAPPED
+ oneWay=false
+ soapAction=
+ParameterMetaData:
+ xmlName={http://slsb.ejb3.examples.programmers.jp/}hello
+ partName=hello
+ xmlType={http://slsb.ejb3.examples.programmers.jp/}hello
+ javaType=jp.programmers.examples.ejb3.slsb.jaxws.Hello
+ mode=IN
+ inHeader=false
+ index=0
+ wrappedParameters=[]
+ReturnMetaData:
+ xmlName={http://slsb.ejb3.examples.programmers.jp/}helloResponse
+ partName=helloResponse
+ xmlType={http://slsb.ejb3.examples.programmers.jp/}helloResponse
+ javaType=jp.programmers.examples.ejb3.slsb.jaxws.HelloResponse
+ mode=OUT
+ inHeader=false
+ index=-1
+ wrappedParameters=[[name = return, type = java.lang.String, typeArgs = null, variable = return, index = -1]]
+2010-07-29 01:20:23,304 DEBUG [org.jboss.ws.metadata.umdm.EndpointMetaData] (main) Configure SOAPBinding
+2010-07-29 01:20:23,304 DEBUG [org.jboss.ws.core.jaxws.handler.HandlerResolverImpl] (main) initHandlerChain: PRE
+2010-07-29 01:20:23,304 DEBUG [org.jboss.ws.core.jaxws.handler.HandlerResolverImpl] (main) initHandlerChain: ENDPOINT
+2010-07-29 01:20:23,305 DEBUG [org.jboss.ws.core.jaxws.handler.HandlerResolverImpl] (main) initHandlerChain: POST
+2010-07-29 01:20:23,309 DEBUG [org.jboss.ws.core.jaxws.handler.HandlerResolverImpl] (main) getHandlerChain: [type=PRE,info=[service={http://slsb.ejb3.examples.programmers.jp/}HelloSLSBService,port={http://slsb.ejb3.examples.programmers.jp/}HelloSLSBPort,binding=http://schemas.xmlsoap.org/wsdl/soap/http]]
+2010-07-29 01:20:23,309 DEBUG [org.jboss.ws.core.jaxws.handler.HandlerResolverImpl] (main) getHandlerChain: [type=POST,info=[service={http://slsb.ejb3.examples.programmers.jp/}HelloSLSBService,port={http://slsb.ejb3.examples.programmers.jp/}HelloSLSBPort,binding=http://schemas.xmlsoap.org/wsdl/soap/http]]
+2010-07-29 01:20:23,309 DEBUG [org.jboss.ws.core.jaxws.handler.HandlerResolverImpl] (main) getHandlerChain: [type=ENDPOINT,info=[service={http://slsb.ejb3.examples.programmers.jp/}HelloSLSBService,port={http://slsb.ejb3.examples.programmers.jp/}HelloSLSBPort,binding=http://schemas.xmlsoap.org/wsdl/soap/http]]
+2010-07-29 01:20:23,309 DEBUG [org.jboss.ws.core.jaxws.binding.BindingImpl] (main) setHandlerChain: []
+2010-07-29 01:20:23,315 DEBUG [org.jboss.ws.core.jaxws.spi.ServiceDelegateImpl] (main) No port configuration for: {http://slsb.ejb3.examples.programmers.jp/}HelloSLSBPort
+2010-07-29 01:20:23,315 TRACE [org.jboss.ws.core.jaxws.client.ClientProxy] (main) Invoke method: public abstract java.lang.String jp.programmers.examples.ejb3.slsb.Hello.hello()
+OperationMetaData:
+ qname={http://slsb.ejb3.examples.programmers.jp/}hello
+ javaName=hello
+ style=document/literal/WRAPPED
+ oneWay=false
+ soapAction=
+ParameterMetaData:
+ xmlName={http://slsb.ejb3.examples.programmers.jp/}hello
+ partName=hello
+ xmlType={http://slsb.ejb3.examples.programmers.jp/}hello
+ javaType=jp.programmers.examples.ejb3.slsb.jaxws.Hello
+ mode=IN
+ inHeader=false
+ index=0
+ wrappedParameters=[]
+ReturnMetaData:
+ xmlName={http://slsb.ejb3.examples.programmers.jp/}helloResponse
+ partName=helloResponse
+ xmlType={http://slsb.ejb3.examples.programmers.jp/}helloResponse
+ javaType=jp.programmers.examples.ejb3.slsb.jaxws.HelloResponse
+ mode=OUT
+ inHeader=false
+ index=-1
+ wrappedParameters=[[name = return, type = java.lang.String, typeArgs = null, variable = return, index = -1]]
+2010-07-29 01:20:23,317 DEBUG [org.jboss.ws.core.soap.MessageContextAssociation] (main) pushMessageContext: org.jboss.ws.core.jaxws.handler.SOAPMessageContextJAXWS@9e8c34 (Thread main)
+2010-07-29 01:20:23,318 TRACE [org.jboss.ws.core.CommonMessageContext] (main) put: APPLICATION:javax.xml.ws.service.endpoint.address=http://127.0.0.1:8080/example-ejb3/HelloSLSB
+2010-07-29 01:20:23,318 TRACE [org.jboss.ws.core.CommonMessageContext] (main) put: APPLICATION:javax.xml.ws.wsdl.description=http://127.0.0.1:8080/example-ejb3/HelloSLSB?wsdl
+2010-07-29 01:20:23,318 TRACE [org.jboss.ws.core.CommonMessageContext] (main) put: APPLICATION:javax.xml.ws.wsdl.service={http://slsb.ejb3.examples.programmers.jp/}HelloSLSBService
+2010-07-29 01:20:23,318 TRACE [org.jboss.ws.core.CommonMessageContext] (main) put: APPLICATION:javax.xml.ws.wsdl.port={http://slsb.ejb3.examples.programmers.jp/}HelloSLSBPort
+2010-07-29 01:20:23,318 TRACE [org.jboss.ws.core.CommonMessageContext] (main) put: APPLICATION:javax.xml.ws.wsdl.interface={http://slsb.ejb3.examples.programmers.jp/}HelloSLSB
+2010-07-29 01:20:23,318 TRACE [org.jboss.ws.core.CommonMessageContext] (main) put: APPLICATION:javax.xml.ws.wsdl.operation={http://slsb.ejb3.examples.programmers.jp/}hello
+2010-07-29 01:20:23,318 TRACE [org.jboss.ws.core.CommonMessageContext] (main) put: APPLICATION:javax.xml.ws.service.endpoint.address=http://127.0.0.1:8080/example-ejb3/HelloSLSB
+2010-07-29 01:20:23,322 DEBUG [org.jboss.ws.core.jaxrpc.ParameterWrapping] (main) wrapRequestParameters: jp.programmers.examples.ejb3.slsb.jaxws.Hello
+2010-07-29 01:20:23,322 DEBUG [org.jboss.ws.core.EndpointInvocation] (main) setRequestParamValue: [name={http://slsb.ejb3.examples.programmers.jp/}hello,value=jp.programmers.examples.ejb3.slsb.jaxws.Hello]
+2010-07-29 01:20:23,322 TRACE [org.jboss.ws.core.CommonMessageContext] (main) put: APPLICATION:javax.xml.ws.handler.message.outbound=true
+2010-07-29 01:20:23,322 TRACE [org.jboss.ws.core.CommonMessageContext] (main) put: APPLICATION:javax.xml.ws.binding.attachments.outbound={}
+2010-07-29 01:20:23,322 DEBUG [org.jboss.ws.core.jaxws.binding.SOAP11BindingJAXWS] (main) bindRequestMessage: {http://slsb.ejb3.examples.programmers.jp/}hello
+2010-07-29 01:20:23,323 TRACE [org.jboss.ws.core.CommonMessageContext] (main) put: APPLICATION:org.jboss.ws.mtom.enabled=false
+2010-07-29 01:20:23,331 TRACE [org.jboss.wsf.common.DOMUtils] (main) createElement {http://schemas.xmlsoap.org/soap/envelope/}env:Envelope
+2010-07-29 01:20:23,331 TRACE [org.jboss.ws.core.soap.SOAPElementImpl] (main) new SOAPElementImpl: {http://schemas.xmlsoap.org/soap/envelope/}Envelope
+2010-07-29 01:20:23,331 TRACE [org.jboss.ws.core.soap.SOAPElementImpl] (main) addNamespaceDeclaration: xmlns:env='http://schemas.xmlsoap.org/soap/envelope/'
+2010-07-29 01:20:23,333 TRACE [org.jboss.wsf.common.DOMUtils] (main) createElement {http://schemas.xmlsoap.org/soap/envelope/}env:Header
+2010-07-29 01:20:23,333 TRACE [org.jboss.ws.core.soap.SOAPElementImpl] (main) new SOAPElementImpl: {http://schemas.xmlsoap.org/soap/envelope/}Header
+2010-07-29 01:20:23,333 TRACE [org.jboss.ws.core.soap.SOAPElementImpl] (main) addChildElement: {http://schemas.xmlsoap.org/soap/envelope/}Envelope -> {http://schemas.xmlsoap.org/soap/envelope/}Header
+2010-07-29 01:20:23,333 TRACE [org.jboss.wsf.common.DOMUtils] (main) createElement {http://schemas.xmlsoap.org/soap/envelope/}env:Body
+2010-07-29 01:20:23,333 TRACE [org.jboss.ws.core.soap.SOAPElementImpl] (main) new SOAPElementImpl: {http://schemas.xmlsoap.org/soap/envelope/}Body
+2010-07-29 01:20:23,334 TRACE [org.jboss.ws.core.soap.SOAPElementImpl] (main) addChildElement: {http://schemas.xmlsoap.org/soap/envelope/}Envelope -> {http://schemas.xmlsoap.org/soap/envelope/}Body
+2010-07-29 01:20:23,334 DEBUG [org.jboss.ws.core.EndpointInvocation] (main) getRequestParamValue: {http://slsb.ejb3.examples.programmers.jp/}hello
+2010-07-29 01:20:23,334 DEBUG [org.jboss.ws.core.EndpointInvocation] (main) transformPayloadValue: jp.programmers.examples.ejb3.slsb.jaxws.Hello -> jp.programmers.examples.ejb3.slsb.jaxws.Hello
+2010-07-29 01:20:23,337 TRACE [org.jboss.wsf.common.DOMUtils] (main) createElement {http://slsb.ejb3.examples.programmers.jp/}ns1:hello
+2010-07-29 01:20:23,337 TRACE [org.jboss.ws.core.soap.SOAPElementImpl] (main) new SOAPElementImpl: {http://slsb.ejb3.examples.programmers.jp/}hello
+2010-07-29 01:20:23,337 TRACE [org.jboss.ws.core.soap.SOAPBodyImpl] (main) addChildElement: {http://slsb.ejb3.examples.programmers.jp/}hello
+2010-07-29 01:20:23,337 TRACE [org.jboss.ws.core.soap.SOAPElementImpl] (main) addChildElement: {http://schemas.xmlsoap.org/soap/envelope/}Body -> {http://slsb.ejb3.examples.programmers.jp/}hello
+2010-07-29 01:20:23,337 TRACE [org.jboss.ws.core.soap.SOAPBodyImpl] (main) appendChild: ns1:hello
+2010-07-29 01:20:23,338 TRACE [org.jboss.ws.core.soap.SOAPContentElement] (main) addNamespaceDeclaration: [prefix=ns1,nsURI=http://slsb.ejb3.examples.programmers.jp/]
+2010-07-29 01:20:23,338 TRACE [org.jboss.ws.core.soap.SOAPElementImpl] (main) addNamespaceDeclaration: xmlns:ns1='http://slsb.ejb3.examples.programmers.jp/'
+2010-07-29 01:20:23,339 TRACE [org.jboss.ws.core.CommonMessageContext] (main) get(javax.xml.ws.soap.http.soapaction.use): null
+2010-07-29 01:20:23,339 TRACE [org.jboss.ws.core.CommonMessageContext] (main) get(javax.xml.ws.soap.http.soapaction.uri): null
+2010-07-29 01:20:23,340 DEBUG [org.jboss.ws.core.jaxws.handler.HandlerChainExecutor] (main) Create a handler executor: []
+2010-07-29 01:20:23,340 TRACE [org.jboss.ws.core.CommonMessageContext] (main) get(javax.xml.ws.handler.message.outbound): APPLICATION:javax.xml.ws.handler.message.outbound=true
+2010-07-29 01:20:23,340 DEBUG [org.jboss.ws.core.jaxws.handler.HandlerChainExecutor] (main) Create a handler executor: []
+2010-07-29 01:20:23,340 TRACE [org.jboss.ws.core.CommonMessageContext] (main) get(javax.xml.ws.handler.message.outbound): APPLICATION:javax.xml.ws.handler.message.outbound=true
+2010-07-29 01:20:23,340 DEBUG [org.jboss.ws.core.jaxws.handler.HandlerChainExecutor] (main) Create a handler executor: []
+2010-07-29 01:20:23,340 TRACE [org.jboss.ws.core.CommonMessageContext] (main) get(javax.xml.ws.handler.message.outbound): APPLICATION:javax.xml.ws.handler.message.outbound=true
+2010-07-29 01:20:23,340 TRACE [org.jboss.ws.core.CommonMessageContext] (main) get(javax.xml.ws.addressing.context.outbound): null
+2010-07-29 01:20:23,344 DEBUG [org.jboss.ws.core.client.RemotingConnectionImpl] (main) Get locator for: [addr=http://127.0.0.1:8080/example-ejb3/HelloSLSB,props={javax.xml.ws.service.endpoint.address=http://127.0.0.1:8080/example-ejb3/HelloSLSB}]
+2010-07-29 01:20:23,346 DEBUG [org.jboss.remoting] (main) Remoting version: 2.2.3.SP2
+2010-07-29 01:20:23,359 DEBUG [org.jboss.remoting.Client] (main) Client[15206208:3j001-ycm1ys-gc6dtj27-1-gc6dtj27-2].connect(null)
+2010-07-29 01:20:23,375 DEBUG [org.jboss.remoting.MicroRemoteClientInvoker] (main) org.jboss.remoting.transport.http.HTTPClientInvoker@34151f connecting
+2010-07-29 01:20:23,375 DEBUG [org.jboss.remoting.MicroRemoteClientInvoker] (main) org.jboss.remoting.transport.http.HTTPClientInvoker@34151f connected
+2010-07-29 01:20:23,376 TRACE [org.jboss.remoting.Client] (main) Client[15206208:3j001-ycm1ys-gc6dtj27-1-gc6dtj27-2] enableLease: false
+2010-07-29 01:20:23,376 DEBUG [org.jboss.remoting.Client] (main) Client[15206208:3j001-ycm1ys-gc6dtj27-1-gc6dtj27-2] connected to InvokerLocator [http://127.0.0.1:8080/example-ejb3/HelloSLSB]
+2010-07-29 01:20:23,376 DEBUG [org.jboss.ws.core.client.RemotingConnectionImpl] (main) Remoting metadata: {NoThrowOnError=true, HEADER={SOAPAction="", Content-Type=text/xml; charset=UTF-8}}
+2010-07-29 01:20:23,377 DEBUG [org.jboss.ws.core.soap.SOAPContentElement] (main) -----------------------------------
+2010-07-29 01:20:23,377 DEBUG [org.jboss.ws.core.soap.SOAPContentElement] (main) Transitioning from OBJECT_VALID to XML_VALID
+2010-07-29 01:20:23,377 DEBUG [org.jboss.ws.core.soap.ObjectContent] (main) getXMLFragment from Object [xmlType={http://slsb.ejb3.examples.programmers.jp/}hello,javaType=class jp.programmers.examples.ejb3.slsb.jaxws.Hello]
+2010-07-29 01:20:23,379 DEBUG [org.jboss.ws.core.jaxws.JAXBSerializer] (main) serialize: [xmlName={http://slsb.ejb3.examples.programmers.jp/}hello,xmlType={http://slsb.ejb3.examples.programmers.jp/}hello]
+2010-07-29 01:20:23,436 DEBUG [org.jboss.ws.core.jaxws.JAXBSerializer] (main) serialized: <ns2:hello xmlns:ns2="http://slsb.ejb3.examples.programmers.jp/"/>
+2010-07-29 01:20:23,437 DEBUG [org.jboss.ws.core.soap.ObjectContent] (main) xmlFragment: [source=<ns2:hello xmlns:ns2="http://slsb.ejb3.examples.programmers.jp/"/>]
+2010-07-29 01:20:23,437 DEBUG [org.jboss.ws.core.soap.SOAPContentElement] (main) -----------------------------------
+2010-07-29 01:20:23,438 TRACE [org.jboss.ws.core.MessageTrace] (main) Outgoing Request Message
+<env:Envelope xmlns:env='http://schemas.xmlsoap.org/soap/envelope/'>
+ <env:Header/>
+ <env:Body>
+  <ns2:hello xmlns:ns2='http://slsb.ejb3.examples.programmers.jp/'/>
+ </env:Body>
+</env:Envelope>
+2010-07-29 01:20:23,439 TRACE [org.jboss.remoting.MicroRemoteClientInvoker] (main) org.jboss.remoting.transport.http.HTTPClientInvoker@34151f(1) invoking InvocationRequest[8a2023, JBOSSWS, org.jboss.ws.core.soap.SOAPMessageImpl@43da1b]
+2010-07-29 01:20:23,439 DEBUG [org.jboss.remoting.transport.http.HTTPClientInvoker] (main) Setting request header with SOAPAction : ""
+2010-07-29 01:20:23,439 DEBUG [org.jboss.remoting.transport.http.HTTPClientInvoker] (main) Setting request header with Content-Type : text/xml; charset=UTF-8
+2010-07-29 01:20:23,447 TRACE [org.jboss.ws.core.soap.SOAPMessageUnMarshaller] (main) Read input stream with metadata={Date=[Wed, 28 Jul 2010 16:20:22 GMT], Transfer-Encoding=[chunked], NoThrowOnError=true, HEADER={SOAPAction="", Content-Type=text/xml; charset=UTF-8}, ResponseCode=200, ResponseCodeMessage=OK, ResponseHeaders={null=[HTTP/1.1 200 OK], Transfer-Encoding=[chunked], Date=[Wed, 28 Jul 2010 16:20:22 GMT], Content-Type=[text/xml;charset=UTF-8], Server=[Apache-Coyote/1.1], X-Powered-By=[Servlet 2.4; JBoss-4.3.0.GA_CP08 (build: SVNTag=JBPAPP_4_3_0_GA_CP08 date=201004202136)/JBossWeb-2.0]}, Content-Type=[text/xml;charset=UTF-8], useRemotingContentType=false, X-Powered-By=[Servlet 2.4; JBoss-4.3.0.GA_CP08 (build: SVNTag=JBPAPP_4_3_0_GA_CP08 date=201004202136)/JBossWeb-2.0], Server=[Apache-Coyote/1.1]}
+2010-07-29 01:20:23,447 DEBUG [org.jboss.ws.core.soap.SOAPMessageUnMarshaller] (main) getMimeHeaders from: {Date=[Wed, 28 Jul 2010 16:20:22 GMT], Transfer-Encoding=[chunked], NoThrowOnError=true, HEADER={SOAPAction="", Content-Type=text/xml; charset=UTF-8}, ResponseCode=200, ResponseCodeMessage=OK, ResponseHeaders={null=[HTTP/1.1 200 OK], Transfer-Encoding=[chunked], Date=[Wed, 28 Jul 2010 16:20:22 GMT], Content-Type=[text/xml;charset=UTF-8], Server=[Apache-Coyote/1.1], X-Powered-By=[Servlet 2.4; JBoss-4.3.0.GA_CP08 (build: SVNTag=JBPAPP_4_3_0_GA_CP08 date=201004202136)/JBossWeb-2.0]}, Content-Type=[text/xml;charset=UTF-8], useRemotingContentType=false, X-Powered-By=[Servlet 2.4; JBoss-4.3.0.GA_CP08 (build: SVNTag=JBPAPP_4_3_0_GA_CP08 date=201004202136)/JBossWeb-2.0], Server=[Apache-Coyote/1.1]}
+2010-07-29 01:20:23,447 TRACE [org.jboss.ws.core.soap.MessageFactoryImpl] (main) [Date=Wed, 28 Jul 2010 16:20:22 GMT]
+2010-07-29 01:20:23,448 TRACE [org.jboss.ws.core.soap.MessageFactoryImpl] (main) [Transfer-Encoding=chunked]
+2010-07-29 01:20:23,448 TRACE [org.jboss.ws.core.soap.MessageFactoryImpl] (main) [Content-Type=text/xml;charset=UTF-8]
+2010-07-29 01:20:23,448 TRACE [org.jboss.ws.core.soap.MessageFactoryImpl] (main) [X-Powered-By=Servlet 2.4; JBoss-4.3.0.GA_CP08 (build: SVNTag=JBPAPP_4_3_0_GA_CP08 date=201004202136)/JBossWeb-2.0]
+2010-07-29 01:20:23,448 TRACE [org.jboss.ws.core.soap.MessageFactoryImpl] (main) [Server=Apache-Coyote/1.1]
+2010-07-29 01:20:23,465 DEBUG [org.jboss.ws.core.soap.MessageFactoryImpl] (main) createMessage: [contentType=text/xml; charset=UTF-8]
+2010-07-29 01:20:23,465 TRACE [org.jboss.ws.core.soap.MessageFactoryImpl] (main) createMessage
+<env:Envelope xmlns:env='http://schemas.xmlsoap.org/soap/envelope/'><env:Header></env:Header><env:Body><ns2:helloResponse xmlns:ns2="http://slsb.ejb3.examples.programmers.jp/"><return>Hello world</return></ns2:helloResponse></env:Body></env:Envelope>
+2010-07-29 01:20:23,466 TRACE [org.jboss.ws.core.soap.MessageFactoryImpl] (main) Using style: document
+2010-07-29 01:20:23,467 TRACE [org.jboss.wsf.common.DOMUtils] (main) createElement {http://schemas.xmlsoap.org/soap/envelope/}env:Envelope
+2010-07-29 01:20:23,467 TRACE [org.jboss.ws.core.soap.SOAPElementImpl] (main) new SOAPElementImpl: {http://schemas.xmlsoap.org/soap/envelope/}Envelope
+2010-07-29 01:20:23,467 TRACE [org.jboss.ws.core.soap.SOAPElementImpl] (main) new SOAPElementImpl: {http://schemas.xmlsoap.org/soap/envelope/}Envelope
+2010-07-29 01:20:23,467 TRACE [org.jboss.ws.core.soap.SOAPElementImpl] (main) addNamespaceDeclaration: xmlns:env='http://schemas.xmlsoap.org/soap/envelope/'
+2010-07-29 01:20:23,467 TRACE [org.jboss.wsf.common.DOMUtils] (main) createElement {http://schemas.xmlsoap.org/soap/envelope/}env:Header
+2010-07-29 01:20:23,467 TRACE [org.jboss.ws.core.soap.SOAPElementImpl] (main) new SOAPElementImpl: {http://schemas.xmlsoap.org/soap/envelope/}Header
+2010-07-29 01:20:23,467 TRACE [org.jboss.ws.core.soap.SOAPElementImpl] (main) addChildElement: {http://schemas.xmlsoap.org/soap/envelope/}Envelope -> {http://schemas.xmlsoap.org/soap/envelope/}Header
+2010-07-29 01:20:23,467 TRACE [org.jboss.wsf.common.DOMUtils] (main) createElement {http://schemas.xmlsoap.org/soap/envelope/}env:Body
+2010-07-29 01:20:23,467 TRACE [org.jboss.ws.core.soap.SOAPElementImpl] (main) new SOAPElementImpl: {http://schemas.xmlsoap.org/soap/envelope/}Body
+2010-07-29 01:20:23,467 TRACE [org.jboss.ws.core.soap.SOAPElementImpl] (main) addChildElement: {http://schemas.xmlsoap.org/soap/envelope/}Envelope -> {http://schemas.xmlsoap.org/soap/envelope/}Body
+2010-07-29 01:20:23,467 TRACE [org.jboss.wsf.common.DOMUtils] (main) createElement {http://slsb.ejb3.examples.programmers.jp/}ns2:helloResponse
+2010-07-29 01:20:23,467 TRACE [org.jboss.ws.core.soap.SOAPElementImpl] (main) new SOAPElementImpl: {http://slsb.ejb3.examples.programmers.jp/}helloResponse
+2010-07-29 01:20:23,467 TRACE [org.jboss.ws.core.soap.SOAPBodyImpl] (main) addChildElement: {http://slsb.ejb3.examples.programmers.jp/}helloResponse
+2010-07-29 01:20:23,467 TRACE [org.jboss.ws.core.soap.SOAPElementImpl] (main) addChildElement: {http://schemas.xmlsoap.org/soap/envelope/}Body -> {http://slsb.ejb3.examples.programmers.jp/}helloResponse
+2010-07-29 01:20:23,468 TRACE [org.jboss.ws.core.soap.SOAPBodyImpl] (main) appendChild: ns2:helloResponse
+2010-07-29 01:20:23,468 TRACE [org.jboss.ws.core.soap.SOAPContentElement] (main) addNamespaceDeclaration: [prefix=ns2,nsURI=http://slsb.ejb3.examples.programmers.jp/]
+2010-07-29 01:20:23,468 TRACE [org.jboss.ws.core.soap.SOAPElementImpl] (main) addNamespaceDeclaration: xmlns:ns2='http://slsb.ejb3.examples.programmers.jp/'
+2010-07-29 01:20:23,468 TRACE [org.jboss.ws.core.soap.SOAPContentElement] (main) setAttribute: [nsURI=http://www.w3.org/2000/xmlns/,name=xmlns:ns2,value=http://slsb.ejb3.examples.programmers.jp/]
+2010-07-29 01:20:23,468 TRACE [org.jboss.remoting.Client] (main) Client[15206208:3j001-ycm1ys-gc6dtj27-1-gc6dtj27-2] entering disconnect()
+2010-07-29 01:20:23,468 TRACE [org.jboss.remoting.MicroRemoteClientInvoker] (main) org.jboss.remoting.transport.http.HTTPClientInvoker@34151f entering terminateLease() for null
+2010-07-29 01:20:23,468 TRACE [org.jboss.remoting.MicroRemoteClientInvoker] (main) org.jboss.remoting.transport.http.HTTPClientInvoker@34151f leasePinger is null: must have been shut down already
+2010-07-29 01:20:23,468 TRACE [org.jboss.remoting.MicroRemoteClientInvoker] (main) org.jboss.remoting.transport.http.HTTPClientInvoker@34151f leaving terminateLease() for null
+2010-07-29 01:20:23,468 TRACE [org.jboss.remoting.InvokerRegistry] (main) destroying client invoker InvokerLocator [http://127.0.0.1:8080/example-ejb3/HelloSLSB], config {enableLease=false, chunkedLength=1024, http://org.jboss.ws/http#chunksize=2048}
+2010-07-29 01:20:23,468 DEBUG [org.jboss.remoting.InvokerRegistry] (main) removed org.jboss.remoting.transport.http.HTTPClientInvoker@34151f from registry
+2010-07-29 01:20:23,468 TRACE [org.jboss.remoting.InvokerRegistry] (main) disconnecting org.jboss.remoting.transport.http.HTTPClientInvoker@34151f
+2010-07-29 01:20:23,468 TRACE [org.jboss.remoting.MicroRemoteClientInvoker] (main) org.jboss.remoting.transport.http.HTTPClientInvoker@34151f disconnecting ...
+2010-07-29 01:20:23,468 TRACE [org.jboss.remoting.MicroRemoteClientInvoker] (main) org.jboss.remoting.transport.http.HTTPClientInvoker@34151f disconnected
+2010-07-29 01:20:23,468 DEBUG [org.jboss.remoting.Client] (main) Client[15206208:3j001-ycm1ys-gc6dtj27-1-gc6dtj27-2] is disconnected
+2010-07-29 01:20:23,469 TRACE [org.jboss.ws.core.MessageTrace] (main) Incoming Response Message
+<env:Envelope xmlns:env='http://schemas.xmlsoap.org/soap/envelope/'>
+ <env:Header/>
+ <env:Body>
+  <ns2:helloResponse xmlns:ns2='http://slsb.ejb3.examples.programmers.jp/'>
+   <return>Hello world</return>
+  </ns2:helloResponse>
+ </env:Body>
+</env:Envelope>
+2010-07-29 01:20:23,469 DEBUG [org.jboss.ws.core.jaxws.handler.MessageContextJAXWS] (main) Begin response processing
+2010-07-29 01:20:23,469 TRACE [org.jboss.ws.core.CommonMessageContext] (main) get(javax.xml.ws.handler.message.outbound): APPLICATION:javax.xml.ws.handler.message.outbound=true
+2010-07-29 01:20:23,469 DEBUG [org.jboss.ws.core.soap.MessageContextAssociation] (main) popMessageContext: org.jboss.ws.core.jaxws.handler.SOAPMessageContextJAXWS@9e8c34 (Thread main)
+2010-07-29 01:20:23,469 TRACE [org.jboss.ws.core.CommonMessageContext] (main) put: APPLICATION:javax.xml.ws.handler.message.outbound=false
+2010-07-29 01:20:23,469 DEBUG [org.jboss.ws.core.soap.MessageContextAssociation] (main) pushMessageContext: org.jboss.ws.core.jaxws.handler.SOAPMessageContextJAXWS@19cc1b (Thread main)
+2010-07-29 01:20:23,469 TRACE [org.jboss.ws.core.CommonMessageContext] (main) put: APPLICATION:org.jboss.ws.remoting.metadata={NoThrowOnError=true, Transfer-Encoding=[chunked], Date=[Wed, 28 Jul 2010 16:20:22 GMT], HEADER={SOAPAction="", Content-Type=text/xml; charset=UTF-8}, ResponseCodeMessage=OK, ResponseCode=200, useRemotingContentType=false, Content-Type=[text/xml;charset=UTF-8], ResponseHeaders={null=[HTTP/1.1 200 OK], Transfer-Encoding=[chunked], Date=[Wed, 28 Jul 2010 16:20:22 GMT], Content-Type=[text/xml;charset=UTF-8], Server=[Apache-Coyote/1.1], X-Powered-By=[Servlet 2.4; JBoss-4.3.0.GA_CP08 (build: SVNTag=JBPAPP_4_3_0_GA_CP08 date=201004202136)/JBossWeb-2.0]}, Server=[Apache-Coyote/1.1], X-Powered-By=[Servlet 2.4; JBoss-4.3.0.GA_CP08 (build: SVNTag=JBPAPP_4_3_0_GA_CP08 date=201004202136)/JBossWeb-2.0]}
+2010-07-29 01:20:23,470 TRACE [org.jboss.ws.core.CommonMessageContext] (main) put: APPLICATION:javax.xml.ws.binding.attachments.inbound={}
+2010-07-29 01:20:23,470 TRACE [org.jboss.ws.core.CommonMessageContext] (main) get(org.jboss.ws.remoting.metadata): APPLICATION:org.jboss.ws.remoting.metadata={NoThrowOnError=true, Transfer-Encoding=[chunked], Date=[Wed, 28 Jul 2010 16:20:22 GMT], HEADER={SOAPAction="", Content-Type=text/xml; charset=UTF-8}, ResponseCodeMessage=OK, ResponseCode=200, useRemotingContentType=false, Content-Type=[text/xml;charset=UTF-8], ResponseHeaders={null=[HTTP/1.1 200 OK], Transfer-Encoding=[chunked], Date=[Wed, 28 Jul 2010 16:20:22 GMT], Content-Type=[text/xml;charset=UTF-8], Server=[Apache-Coyote/1.1], X-Powered-By=[Servlet 2.4; JBoss-4.3.0.GA_CP08 (build: SVNTag=JBPAPP_4_3_0_GA_CP08 date=201004202136)/JBossWeb-2.0]}, Server=[Apache-Coyote/1.1], X-Powered-By=[Servlet 2.4; JBoss-4.3.0.GA_CP08 (build: SVNTag=JBPAPP_4_3_0_GA_CP08 date=201004202136)/JBossWeb-2.0]}
+2010-07-29 01:20:23,470 TRACE [org.jboss.ws.core.CommonMessageContext] (main) put: APPLICATION:javax.xml.ws.http.response.code=200
+2010-07-29 01:20:23,470 TRACE [org.jboss.ws.core.CommonMessageContext] (main) put: APPLICATION:javax.xml.ws.http.response.headers={Date=[Wed, 28 Jul 2010 16:20:22 GMT], Transfer-Encoding=[chunked], Content-Type=[text/xml;charset=UTF-8], X-Powered-By=[Servlet 2.4; JBoss-4.3.0.GA_CP08 (build: SVNTag=JBPAPP_4_3_0_GA_CP08 date=201004202136)/JBossWeb-2.0], Server=[Apache-Coyote/1.1]}
+2010-07-29 01:20:23,470 TRACE [org.jboss.ws.core.CommonMessageContext] (main) get(javax.xml.ws.handler.message.outbound): APPLICATION:javax.xml.ws.handler.message.outbound=false
+2010-07-29 01:20:23,470 DEBUG [org.jboss.ws.core.jaxws.binding.SOAP11BindingJAXWS] (main) unbindResponseMessage: {http://slsb.ejb3.examples.programmers.jp/}hello
+2010-07-29 01:20:23,470 DEBUG [org.jboss.ws.core.EndpointInvocation] (main) setReturnValue: org.jboss.ws.core.soap.SOAPBodyElementDoc
+2010-07-29 01:20:23,470 TRACE [org.jboss.ws.core.CommonMessageContext] (main) get(javax.xml.ws.handler.message.outbound): APPLICATION:javax.xml.ws.handler.message.outbound=false
+2010-07-29 01:20:23,470 TRACE [org.jboss.ws.core.CommonMessageContext] (main) get(javax.xml.ws.handler.message.outbound): APPLICATION:javax.xml.ws.handler.message.outbound=false
+2010-07-29 01:20:23,470 DEBUG [org.jboss.ws.core.CommonClient] (main) Handler modified body payload, unbind message again
+2010-07-29 01:20:23,470 DEBUG [org.jboss.ws.core.jaxws.binding.SOAP11BindingJAXWS] (main) unbindResponseMessage: {http://slsb.ejb3.examples.programmers.jp/}hello
+2010-07-29 01:20:23,470 DEBUG [org.jboss.ws.core.EndpointInvocation] (main) setReturnValue: org.jboss.ws.core.soap.SOAPBodyElementDoc
+2010-07-29 01:20:23,471 DEBUG [org.jboss.ws.core.EndpointInvocation] (main) getReturnValue
+2010-07-29 01:20:23,471 DEBUG [org.jboss.ws.core.soap.SOAPContentElement] (main) -----------------------------------
+2010-07-29 01:20:23,471 DEBUG [org.jboss.ws.core.soap.SOAPContentElement] (main) Transitioning from XML_VALID to OBJECT_VALID
+2010-07-29 01:20:23,471 DEBUG [org.jboss.ws.core.soap.XMLContent] (main) getObjectValue [xmlType={http://slsb.ejb3.examples.programmers.jp/}helloResponse,javaType=class jp.programmers.examples.ejb3.slsb.jaxws.HelloResponse]
+2010-07-29 01:20:23,472 DEBUG [org.jboss.ws.core.jaxws.JAXBDeserializer] (main) deserialize: [xmlName={http://slsb.ejb3.examples.programmers.jp/}helloResponse,xmlType={http://slsb.ejb3.examples.programmers.jp/}helloResponse]
+2010-07-29 01:20:23,488 DEBUG [org.jboss.ws.core.jaxws.JAXBDeserializer] (main) deserialized: jp.programmers.examples.ejb3.slsb.jaxws.HelloResponse
+2010-07-29 01:20:23,488 DEBUG [org.jboss.ws.core.soap.XMLContent] (main) objectValue: jp.programmers.examples.ejb3.slsb.jaxws.HelloResponse
+2010-07-29 01:20:23,488 DEBUG [org.jboss.ws.core.soap.SOAPContentElement] (main) -----------------------------------
+2010-07-29 01:20:23,489 DEBUG [org.jboss.ws.core.EndpointInvocation] (main) transformPayloadValue: org.jboss.ws.core.soap.SOAPBodyElementDoc -> jp.programmers.examples.ejb3.slsb.jaxws.HelloResponse
+2010-07-29 01:20:23,489 DEBUG [org.jboss.ws.core.jaxrpc.ParameterWrapping] (main) unwrapResponseParameter: jp.programmers.examples.ejb3.slsb.jaxws.HelloResponse
+2010-07-29 01:20:23,489 DEBUG [org.jboss.ws.core.jaxws.handler.HandlerChainExecutor] (main) close
+2010-07-29 01:20:23,489 DEBUG [org.jboss.ws.core.jaxws.handler.HandlerChainExecutor] (main) close
+2010-07-29 01:20:23,489 DEBUG [org.jboss.ws.core.jaxws.handler.HandlerChainExecutor] (main) close
+2010-07-29 01:20:23,489 TRACE [org.jboss.ws.core.CommonMessageContext] (main) get(javax.xml.ws.wsdl.port): APPLICATION:javax.xml.ws.wsdl.port={http://slsb.ejb3.examples.programmers.jp/}HelloSLSBPort
+2010-07-29 01:20:23,489 TRACE [org.jboss.ws.core.CommonMessageContext] (main) get(javax.xml.ws.binding.attachments.outbound): APPLICATION:javax.xml.ws.binding.attachments.outbound={}
+2010-07-29 01:20:23,489 TRACE [org.jboss.ws.core.CommonMessageContext] (main) get(org.jboss.ws.mtom.enabled): APPLICATION:org.jboss.ws.mtom.enabled=false
+2010-07-29 01:20:23,489 TRACE [org.jboss.ws.core.CommonMessageContext] (main) get(org.jboss.ws.remoting.metadata): APPLICATION:org.jboss.ws.remoting.metadata={NoThrowOnError=true, Transfer-Encoding=[chunked], Date=[Wed, 28 Jul 2010 16:20:22 GMT], HEADER={SOAPAction="", Content-Type=text/xml; charset=UTF-8}, ResponseCodeMessage=OK, ResponseCode=200, useRemotingContentType=false, Content-Type=[text/xml;charset=UTF-8], ResponseHeaders={null=[HTTP/1.1 200 OK], Transfer-Encoding=[chunked], Date=[Wed, 28 Jul 2010 16:20:22 GMT], Content-Type=[text/xml;charset=UTF-8], Server=[Apache-Coyote/1.1], X-Powered-By=[Servlet 2.4; JBoss-4.3.0.GA_CP08 (build: SVNTag=JBPAPP_4_3_0_GA_CP08 date=201004202136)/JBossWeb-2.0]}, Server=[Apache-Coyote/1.1], X-Powered-By=[Servlet 2.4; JBoss-4.3.0.GA_CP08 (build: SVNTag=JBPAPP_4_3_0_GA_CP08 date=201004202136)/JBossWeb-2.0]}
+2010-07-29 01:20:23,489 TRACE [org.jboss.ws.core.CommonMessageContext] (main) get(javax.xml.ws.wsdl.service): APPLICATION:javax.xml.ws.wsdl.service={http://slsb.ejb3.examples.programmers.jp/}HelloSLSBService
+2010-07-29 01:20:23,489 TRACE [org.jboss.ws.core.CommonMessageContext] (main) get(javax.xml.ws.binding.attachments.inbound): APPLICATION:javax.xml.ws.binding.attachments.inbound={}
+2010-07-29 01:20:23,489 TRACE [org.jboss.ws.core.CommonMessageContext] (main) get(javax.xml.ws.handler.message.outbound): APPLICATION:javax.xml.ws.handler.message.outbound=false
+2010-07-29 01:20:23,489 TRACE [org.jboss.ws.core.CommonMessageContext] (main) get(javax.xml.ws.http.response.code): APPLICATION:javax.xml.ws.http.response.code=200
+2010-07-29 01:20:23,489 TRACE [org.jboss.ws.core.CommonMessageContext] (main) get(javax.xml.ws.wsdl.interface): APPLICATION:javax.xml.ws.wsdl.interface={http://slsb.ejb3.examples.programmers.jp/}HelloSLSB
+2010-07-29 01:20:23,489 TRACE [org.jboss.ws.core.CommonMessageContext] (main) get(javax.xml.ws.wsdl.operation): APPLICATION:javax.xml.ws.wsdl.operation={http://slsb.ejb3.examples.programmers.jp/}hello
+2010-07-29 01:20:23,489 TRACE [org.jboss.ws.core.CommonMessageContext] (main) get(javax.xml.ws.http.response.headers): APPLICATION:javax.xml.ws.http.response.headers={Date=[Wed, 28 Jul 2010 16:20:22 GMT], Transfer-Encoding=[chunked], Content-Type=[text/xml;charset=UTF-8], X-Powered-By=[Servlet 2.4; JBoss-4.3.0.GA_CP08 (build: SVNTag=JBPAPP_4_3_0_GA_CP08 date=201004202136)/JBossWeb-2.0], Server=[Apache-Coyote/1.1]}
+2010-07-29 01:20:23,489 TRACE [org.jboss.ws.core.CommonMessageContext] (main) get(javax.xml.ws.service.endpoint.address): APPLICATION:javax.xml.ws.service.endpoint.address=http://127.0.0.1:8080/example-ejb3/HelloSLSB
+2010-07-29 01:20:23,489 TRACE [org.jboss.ws.core.CommonMessageContext] (main) get(javax.xml.ws.wsdl.description): APPLICATION:javax.xml.ws.wsdl.description=http://127.0.0.1:8080/example-ejb3/HelloSLSB?wsdl
+2010-07-29 01:20:23,489 DEBUG [org.jboss.ws.core.soap.MessageContextAssociation] (main) popMessageContext: org.jboss.ws.core.jaxws.handler.SOAPMessageContextJAXWS@19cc1b (Thread main)
+2010-07-29 01:20:43,541 TRACE [org.jboss.remoting.MicroRemoteClientInvoker] (Finalizer) org.jboss.remoting.transport.http.HTTPClientInvoker@34151f disconnecting ...
+2010-07-29 01:20:43,541 TRACE [org.jboss.remoting.MicroRemoteClientInvoker] (Finalizer) org.jboss.remoting.transport.http.HTTPClientInvoker@34151f is not connected!

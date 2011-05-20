@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copy the <domain> block into ejb3-interceptors-aop.xml, or deploy this between ejb3-interceptors-aop.xml and the ejb archive (need to declare dependencies!) -->
+<aop xmlns="urn:jboss:aop-beans:1.0">
+
+  <domain name="Strictly Pooled Message Driven Bean" extends="Message Driven Bean" inheritBindings="false">
+    <annotation expr="!class(@org.jboss.ejb3.annotation.Pool)">
+      @org.jboss.annotation.ejb.PoolClass (value=org.jboss.ejb3.StrictMaxPool.class, maxSize=1, timeout=10000)
+    </annotation>
+  </domain>
+
+</aop>
+
+
+

@@ -1,0 +1,8 @@
+<application>
+  <module>
+    <web>
+      <web-uri>log4j.war</web-uri>
+      <context-root>/log4j</context-root>
+    </web>
+  </module>
+</application>

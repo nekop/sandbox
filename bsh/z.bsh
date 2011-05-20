@@ -1,0 +1,52 @@
+import jp.programmers.examples.ejb2.cmp.*;
+
+init = true;
+
+if (init) {
+    conn = null;
+    try {
+        ds = new javax.naming.InitialContext().lookup("java:DefaultDS");
+        conn = ds.getConnection();
+        s = conn.createStatement();
+        rs = s.executeQuery("SELECT * FROM STUDENT");
+        if (!rs.next()) {
+            s.executeUpdate("INSERT INTO STUDENT (ID, NAME) VALUES (1, 'aaa')");
+        }
+        rs.close();
+        s.close();
+        conn.close();
+    } catch (Exception ex) {
+        ex.printStackTrace();
+        try {
+            conn.close();
+        } catch (Exception ignore) {
+        }
+    }
+}
+
+tm = new javax.naming.InitialContext().lookup("java:TransactionManager");
+try {
+    tm.rollback();
+} catch (Exception ignore) {
+}
+
+run() {
+tm.begin();
+print("start");
+home = new javax.naming.InitialContext().lookup("Student");
+for (int i = 0; i < 100; i++) {
+    bean = home.findByPrimaryKey(new StudentPK(1));
+    bean.getName();
+}
+Thread.sleep(1000);
+tm.commit();
+print("end");
+}
+
+ex = java.util.concurrent.Executors.newCachedThreadPool();
+for (int i = 0; i < 20; i++) {
+    ex.execute(this);
+}
+
+//print(ex.awaitTermination(20, java.util.concurrent.TimeUnit.SECONDS));
+//ex.shutdownNow();

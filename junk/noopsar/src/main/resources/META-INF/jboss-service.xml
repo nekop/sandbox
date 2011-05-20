@@ -1,0 +1,5 @@
+<server>
+  <mbean code="com.redhat.jboss.support.NoopService"
+         name="example:type=NoopService,service=Noop">
+  </mbean>
+</server>

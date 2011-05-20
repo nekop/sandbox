@@ -1,0 +1,9 @@
+<jboss-app>
+<!--
+  <loader-repository>
+    com.redhat.jboss.support:archive=log4j.ear
+    <loader-repository-config>java2ParentDelegation=false</loader-repository-config>
+  </loader-repository>
+-->
+</jboss-app>
+
