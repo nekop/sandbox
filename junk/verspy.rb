@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+# ruby verspy.rb -s /path/to/jboss-seam-src/src/main -p org.jboss.seam stacktrace.log
+
 require 'optparse'
 
 Version = "0.1"
@@ -8,7 +10,6 @@ option_hash = {}
 OptionParser.new { |opt|
   opt.on('-s source path', '--sourcepath') { |v| option_hash[:s] = v }
   opt.on('-p target package name', '--packagename') { |v| option_hash[:p] = v }
-  
   opt.parse!(ARGV)
 }
 
@@ -19,8 +20,11 @@ raise if opt_source_path.nil? or opt_package_name.nil?
 
 STACKTRACE_RE = /\s+at\s(#{opt_package_name}[^\(]+)\(([\w\.]+):(\d+)\)\s*$/
 
+lines_done = []
+
 ARGF.each do |line|
-  if line.match(STACKTRACE_RE) then
+  if line.match(STACKTRACE_RE) and not lines_done.include?(line) then
+    lines_done << line
     class_method_name = $1
     source = $2
     source_linenum = $3.to_i
