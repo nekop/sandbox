@@ -42,7 +42,7 @@ ARGF.each do |line|
       body = f.readlines
       target_line = body[source_linenum-1]
       unless target_line =~ /#{method_name}/ then
-        puts "== Suspicias line"
+        puts "== Suspicious line"
         puts line
         puts "#{source_linenum-1}: #{body[source_linenum-2]}"
         puts "#{source_linenum}: #{body[source_linenum-1]}"
