@@ -7,7 +7,7 @@
 require 'optparse'
 require 'open-uri'
 
-Version = "1.0"
+Version = "2.0"
 
 option_hash = {}
 OptionParser.new { |opt|
@@ -23,33 +23,69 @@ raise if opt_source_path.nil? or opt_package_name.nil?
 
 opt_source_path.chop! if opt_source_path[-1] == '/'[0] # drop last slash
 
-STACKTRACE_RE = /\s+at\s(#{opt_package_name}[^\(]+)\(([\w\.]+):(\d+)\)\s*$/
+STACKTRACE_RE = /\s+at\s([^\(]+)\(([\w\.]+):(\d+)\)\s*$/
+
+class StackTraceElement
+  attr_accessor :fqcn, :package_name, :method_name, :source_filename, :source_linenum
+  def self.parse(line)
+    if line.match(STACKTRACE_RE) then
+      e = StackTraceElement.new
+      fqcn_method_name = $1
+      e.source_filename = $2
+      e.source_linenum = $3.to_i
+      e.fqcn = fqcn_method_name[0...fqcn_method_name.rindex('.')] # drop method name
+      e.method_name = fqcn_method_name[fqcn_method_name.rindex('.')+1..-1] # drop fqcn
+      e.package_name = e.fqcn[0...e.fqcn.rindex('.')] # drop class name from fqcn
+      e
+    else
+      nil
+    end
+  end
+end
+
 
 lines_done = []
+prev_e = nil
 
 ARGF.each do |line|
-  if line.match(STACKTRACE_RE) and not lines_done.include?(line) then
-    lines_done << line
-    class_method_name = $1
-    source = $2
-    source_linenum = $3.to_i
-    class_name = class_method_name[0...class_method_name.rindex('.')]
-    method_name = class_method_name[class_method_name.rindex('.')+1..-1]
-    package_name = class_name[0...class_name.rindex('.')]
-    source_file = "#{opt_source_path}/#{package_name.gsub(/\./, '/')}/#{source}"
+  e = StackTraceElement.parse(line)
 
+  if e.nil? then
+    prev_e = nil
+    next
+  end
+
+  if e.package_name =~ /#{opt_package_name}/ then
+    lines_done << line
+    source_file = "#{opt_source_path}/#{e.package_name.gsub(/\./, '/')}/#{e.source_filename}"
     open(source_file) do |f|
       body = f.readlines
-      target_line = body[source_linenum-1]
-      unless target_line =~ /#{method_name}/ then
-        puts "== Suspicious line"
-        puts line
-        puts "#{source_linenum-1}: #{body[source_linenum-2]}"
-        puts "#{source_linenum}: #{body[source_linenum-1]}"
-        puts "#{source_linenum+1}: #{body[source_linenum]}"
+      target_line = body[e.source_linenum-1]
+
+      suspicious = false
+      if prev_e.nil? then
+        # first line in the stack, it should contain "throw" keyword
+        suspicious = true unless target_line =~ /^\s*throw\s/
+      else
+        if prev_e.method_name == "<init>" then
+          # ctor, so it should contain "new" keyword
+          suspicious = true unless target_line =~ /new\s/
+        else
+          # normal method, it should contain prev_e.method_name
+          suspicious = true unless target_line =~ /#{prev_e.method_name}/
+        end
+      end
+      if suspicious then
+        puts "==== #{line}"
+        puts "#{e.source_linenum-1}: #{body[e.source_linenum-2]}"
+        puts "#{e.source_linenum}: #{body[e.source_linenum-1]}"
+        puts "#{e.source_linenum+1}: #{body[e.source_linenum]}"
       end
     end rescue puts "#{source_file} not found"
   end
+
+  prev_e = e
+
 end
 
 puts "Done, processed #{lines_done.size} stack trace elements."
