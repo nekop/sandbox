@@ -1,0 +1,8 @@
+RULE HttpServletRequest getParameter debug
+INTERFACE javax.servlet.http.HttpServletRequest
+METHOD getParameter(java.lang.String)
+AT EXIT
+IF TRUE
+DO traceln("HttpServletRequest.getParameter(" + $1 + ") returns " + $!),traceStack(3)
+ENDRULE
+

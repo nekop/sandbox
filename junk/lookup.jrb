@@ -1,0 +1,21 @@
+require "java"
+
+include_class "javax.naming.InitialContext"
+include_class "javax.naming.Context"
+include_class "java.util.Properties"
+
+props = Properties.new;
+props.put(Context.INITIAL_CONTEXT_FACTORY,
+          "org.jnp.interfaces.NamingContextFactory");
+props.put(Context.URL_PKG_PREFIXES,
+          "org.jboss.naming:org.jnp.interfaces");
+props.put(Context.PROVIDER_URL, "localhost:1099");
+context = InitialContext.new(props);
+
+20.times do
+  puts Time.new
+  result = context.lookup("UserTransaction");
+  puts result
+  sleep 2
+end
+

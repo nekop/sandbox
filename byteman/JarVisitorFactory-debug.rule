@@ -1,0 +1,7 @@
+RULE JarVisitorFactory debug
+CLASS org.hibernate.ejb.packaging.JarVisitorFactory
+METHOD getVisitor
+AT EXIT
+IF TRUE
+DO traceln("JarVisitorFactory.getVisitor: " + $!),traceStack()
+ENDRULE

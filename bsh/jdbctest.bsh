@@ -1,0 +1,72 @@
+setup() {
+    context = new javax.naming.InitialContext();
+    ds = context.lookup("java:/XAOracleDS");
+    conn = ds.getConnection();
+    conn.setAutoCommit(false);
+    try {
+    ps = conn.prepareStatement("CREATE TABLE TEST(ID NUMBER PRIMARY KEY)");
+    ps.executeUpdate();
+    ps.close();
+    ps = conn.prepareStatement("INSERT INTO TEST VALUES (0)");
+    ps.executeUpdate();
+    ps.close();
+    } catch (ignore) {
+    } finally {
+    conn.close();
+    }
+}
+
+selectMax() {
+    context = new javax.naming.InitialContext();
+    ds = context.lookup("java:/XAOracleDS");
+    conn = ds.getConnection();
+    conn.setAutoCommit(false);
+    ps = conn.prepareStatement("SELECT MAX(ID) FROM TEST");
+    rs = ps.executeQuery();
+    rs.next();
+    result = rs.getInt(1);
+    rs.close();
+    ps.close();
+    conn.close();
+    return result;
+}
+
+runWithTx(i) {
+    context = new javax.naming.InitialContext();
+    tm = context.lookup("java:/TransactionManager");
+    tm.begin();
+    ds = context.lookup("java:/XAOracleDS");
+    conn = ds.getConnection();
+    ps = conn.prepareStatement("INSERT INTO TEST VALUES (" + i + ")");
+    ps.executeUpdate();
+    ps.close();
+    conn.close();
+    tm.commit();
+}
+
+runWithoutTx(i) {
+    context = new javax.naming.InitialContext();
+    ds = context.lookup("java:/XAOracleDS");
+    conn = ds.getConnection();
+    conn.setAutoCommit(false);
+    ps = conn.prepareStatement("INSERT INTO TEST VALUES (" + i + ")");
+    ps.executeUpdate();
+    ps.close();
+    conn.commit();
+    conn.close();
+}
+
+try {
+    setup();
+    offset = selectMax() + 1;
+    for (int i = 0; i < 200; i++) {
+        if (i % 3 == 0) {
+            runWithTx(i + offset);
+        } else {
+            runWithoutTx(i + offset);
+        }
+    }
+} catch (ex) {
+    ex.printStackTrace();
+}
+

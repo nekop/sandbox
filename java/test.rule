@@ -1,0 +1,24 @@
+RULE test0
+CLASS sandbox.Overload
+METHOD foo
+AT ENTRY
+IF TRUE
+DO traceln(" byte! " + $this.privField)
+ENDRULE
+
+RULE test1
+CLASS sandbox.Overload
+METHOD put(java.lang.Object, java.lang.Object)
+AT ENTRY
+IF TRUE
+DO traceln(" byte! " + $1 + ":" + $2)
+ENDRULE
+
+RULE test2
+CLASS sandbox.Overload
+METHOD put(java.util.Map)
+AT ENTRY
+IF TRUE
+DO traceln(" byte! " + $1)
+ENDRULE
+

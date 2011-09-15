@@ -1,0 +1,48 @@
+RULE ThreadlocalPool.discard debug
+CLASS org.jboss.ejb3.pool.ThreadlocalPool
+METHOD discard
+AT EXIT
+IF TRUE
+DO traceln("ThreadlocalPool.discard" + $1), traceStack()
+ENDRULE
+
+RULE ThreadlocalPool.remove debug
+CLASS org.jboss.ejb3.pool.ThreadlocalPool
+METHOD remove
+AT EXIT
+IF TRUE
+DO traceln("ThreadlocalPool.remove" + $1), traceStack()
+ENDRULE
+
+RULE ThreadlocalPool.release debug
+CLASS org.jboss.ejb3.pool.ThreadlocalPool
+METHOD release
+AT EXIT
+IF TRUE
+DO traceln("ThreadlocalPool.release" + $1), traceStack()
+ENDRULE
+
+RULE ThreadlocalPool.get debug
+CLASS org.jboss.ejb3.pool.ThreadlocalPool
+METHOD get
+AT EXIT
+IF TRUE
+DO traceln("ThreadlocalPool.get"), traceStack()
+ENDRULE
+
+RULE ThreadlocalPool.create debug
+CLASS org.jboss.ejb3.pool.ThreadlocalPool
+METHOD create
+AT EXIT
+IF TRUE
+DO traceln("ThreadlocalPool.create"), traceStack()
+ENDRULE
+
+RULE StatelessInstanceInterceptor.invoke debug
+CLASS org.jboss.ejb3.stateless.StatelessInstanceInterceptor
+METHOD invoke
+AT EXIT
+IF TRUE
+DO traceln("StatelessInstanceInterceptor.invoke" + $1), traceStack()
+ENDRULE
+
