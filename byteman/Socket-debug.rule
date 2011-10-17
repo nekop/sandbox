@@ -1,0 +1,88 @@
+# ctors
+
+
+RULE new Socket() debug
+CLASS ^java.net.Socket
+METHOD <init>()
+AT ENTRY
+IF TRUE
+DO traceln("new Socket(): " + $0.hashCode()), traceStack()
+ENDRULE
+
+RULE new Socket(java.lang.String, int) debug
+CLASS ^java.net.Socket
+METHOD <init>(java.lang.String, int)
+AT ENTRY
+IF TRUE
+DO traceln("new Socket(" + $1 + ": " + $2 + "): " + $0.hashCode()), traceStack()
+ENDRULE
+
+RULE new Socket(java.net.InetAddress, int) debug
+CLASS ^java.net.Socket
+METHOD <init>(java.net.InetAddress, int)
+AT ENTRY
+IF TRUE
+DO traceln("new Socket(" + $1 + ": " + $2 + "): " + $0.hashCode()), traceStack()
+ENDRULE
+
+RULE new Socket(String, int, java.net.InetAddress, int) debug
+CLASS ^java.net.Socket
+METHOD <init>(java.net.InetAddress, int, java.net.InetAddress, int)
+AT ENTRY
+IF TRUE
+DO traceln("new Socket(" + $1 + ": " + $2 + ": " + $3 + ": " + $4 + "): " + $0.hashCode()), traceStack()
+ENDRULE
+
+RULE new Socket(java.net.InetAddress, int, java.net.InetAddress, int) debug
+CLASS ^java.net.Socket
+METHOD <init>(java.net.InetAddress, int, java.net.InetAddress, int)
+AT ENTRY
+IF TRUE
+DO traceln("new Socket(" + $1 + ": " + $2 + ": " + $3 + ": " + $4 + "): " + $0.hashCode()), traceStack()
+ENDRULE
+
+RULE new Socket(java.net.SocketImpl) debug
+CLASS ^java.net.Socket
+METHOD <init>(java.net.SocketImpl)
+AT ENTRY
+IF TRUE
+DO traceln("new Socket(" + $1 + "): " + $0.hashCode()), traceStack()
+ENDRULE
+
+
+# methods
+
+
+RULE Socket.bind(java.net.SocketAddress) debug
+CLASS ^java.net.Socket
+METHOD bind(java.net.SocketAddress)
+AT ENTRY
+IF TRUE
+DO traceln("Socket.bind(" + $1 + "): " + $0.hashCode())
+ENDRULE
+
+# This method always calls connect(SocketAddress, int), so no need to debug this method
+# RULE Socket.connect(java.net.SocketAddress) debug
+# CLASS ^java.net.Socket
+# METHOD connect(java.net.SocketAddress)
+# AT ENTRY
+# IF TRUE
+# DO traceln("Socket.connect(" + $1 + "): " + $0.hashCode())
+# ENDRULE
+
+RULE Socket.connect(java.net.SocketAddress, int) debug
+CLASS ^java.net.Socket
+METHOD connect(java.net.SocketAddress, int)
+AT ENTRY
+IF TRUE
+DO traceln("Socket.connect(" + $1 + ": " + $2 + "): " + $0.hashCode())
+ENDRULE
+
+RULE Socket.close() debug
+CLASS ^java.net.Socket
+METHOD close()
+AT ENTRY
+IF TRUE
+DO traceln("Socket.close(): " + $0.hashCode())
+ENDRULE
+
