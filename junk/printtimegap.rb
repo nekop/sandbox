@@ -6,14 +6,14 @@
 
 require "time"
 
-TIME_RE = /^(\d{4}-\d\d-\d\d \d\d:\d\d:\d\d),(\d\d\d)/
+TIME_RE = /^(\d{4}-\d\d-\d\d \d\d:\d\d:\d\d,\d{3})/
 GAP_THRESHOLD_SEC = 10
 
 prev_time = Time.now
 
 ARGF.each do |line|
   if TIME_RE =~ line then
-    time = Time.at(Time.parse($1).to_i, $2.to_i * 1000)
+    time = Time.parse($1)
 
     if time - prev_time > GAP_THRESHOLD_SEC then
       time_s = time.strftime("%Y-%m-%d %H:%M:%S") + ",#{time.usec / 1000}"
