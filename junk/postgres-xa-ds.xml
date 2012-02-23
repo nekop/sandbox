@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<datasources>
+  <xa-datasource>
+    <jndi-name>PostgresXADS</jndi-name>
+    <track-connection-by-tx>true</track-connection-by-tx> 
+    <xa-datasource-class>org.postgresql.xa.PGXADataSource</xa-datasource-class>
+    <xa-datasource-property name="ServerName">localhost</xa-datasource-property>
+    <xa-datasource-property name="PortNumber">5432</xa-datasource-property>
+    <xa-datasource-property name="DatabaseName">test</xa-datasource-property>
+    <xa-datasource-property name="User">test</xa-datasource-property>
+    <xa-datasource-property name="Password">test</xa-datasource-property>
+
+    <valid-connection-checker-class-name>org.jboss.resource.adapter.jdbc.vendor.PostgreSQLValidConnectionChecker</valid-connection-checker-class-name>
+    <exception-sorter-class-name>org.jboss.resource.adapter.jdbc.vendor.PostgreSQLExceptionSorter</exception-sorter-class-name>
+    <prefill>true</prefill>
+    <min-pool-size>5</min-pool-size>
+    <max-pool-size>20</max-pool-size>
+    <prepared-statement-cache-size>100</prepared-statement-cache-size>
+    <metadata>
+      <type-mapping>PostgreSQL 8.0</type-mapping>
+    </metadata>
+  </xa-datasource>
+</datasources>
