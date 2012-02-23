@@ -3,7 +3,7 @@ CLASS sandbox.Overload
 METHOD foo
 AT ENTRY
 IF TRUE
-DO traceln(" byte! " + $this.privField)
+DO traceln(" byte! " + $this.privField), traceln("" + sandbox.Overload.getInstance().hashCode())
 ENDRULE
 
 RULE test1

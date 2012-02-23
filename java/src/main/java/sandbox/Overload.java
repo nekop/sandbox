@@ -23,4 +23,9 @@ public class Overload<K, V> {
     public void put(Map<K, V> map) {
         System.out.println(map);
     }
+
+    public static Object getInstance() {
+        System.out.println("This is static");
+        return new Overload<Object, Object>();
+    }
 }
