@@ -1,7 +1,6 @@
 #!/usr/bin/env ruby
 
 # Prints time gaps (possible stop-the-world GC) from standard log.
-
 # The supported date format is "2011-10-01 11:22:33,444"
 
 require "time"
@@ -11,8 +10,8 @@ GAP_THRESHOLD_SEC = 10
 
 prev_time = Time.now
 
-ARGF.each do |line|
-  if TIME_RE =~ line then
+while gets
+  if TIME_RE =~ $_ then
     time = Time.parse($1)
 
     if time - prev_time > GAP_THRESHOLD_SEC then
