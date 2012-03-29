@@ -57,8 +57,8 @@ class JmsClient
           else
             producer.send(session.createTextMessage($message))
           end
+          Thread.sleep($sendInterval) if $sendInterval > 0
         end
-        Thread.sleep($sendInterval) if $sendInterval > 0
         producer.close()
       else
         conn.start()
