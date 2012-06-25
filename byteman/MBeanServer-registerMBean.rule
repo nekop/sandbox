@@ -1,0 +1,15 @@
+RULE MBeanServer.registerMBean debug
+INTERFACE javax.management.MBeanServer
+METHOD registerMBean
+AT EXIT
+IF TRUE
+DO traceln("MBeanServer.registerMBean:" + $2)
+ENDRULE
+
+RULE MBeanServer.registerMBean debug
+INTERFACE javax.management.MBeanServer
+METHOD createMBean
+AT EXIT
+IF TRUE
+DO traceln("MBeanServer.createMBean:" + $2)
+ENDRULE
