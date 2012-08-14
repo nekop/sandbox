@@ -1,6 +1,7 @@
 package sandbox;
 
 import java.util.Formatter;
+import java.math.BigInteger;
 
 public class StringUtils {
     public static String format(String format, Object... args) {
@@ -24,6 +25,11 @@ public class StringUtils {
         return sb.toString();
     }
     
+    public static String toHex(byte[] bytes) {
+        BigInteger bi = new BigInteger(1, bytes);
+        return String.format("%0" + (bytes.length << 1) + "X", bi);
+    }
+
     public static void main(String[] args) {
         String s = "\uD842\uDF9F"; // surrogate pair
         System.out.println(toUnicodeEscape("こんにちは"));
