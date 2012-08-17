@@ -27,9 +27,6 @@ public class WaveDash {
         roundtrip(FULLWIDTH_TILDE, "Shift_JIS", "Cp943c");
         roundtrip(FULLWIDTH_TILDE, "Cp943c", "Windows-31J");
         roundtrip(FULLWIDTH_TILDE, "Cp943c", "Shift_JIS");
-        System.out.println(toHex("?".getBytes("Windows-31J")));
-        System.out.println(toHex("?".getBytes("Shift_JIS")));
-        System.out.println(toHex("?".getBytes("Cp943c")));
     }
 
     public static String roundtrip(String target, String encode, String decode) throws Exception {
