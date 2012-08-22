@@ -1,0 +1,16 @@
+RULE AtomicHashMap.delta debug
+CLASS org.infinispan.atomic.AtomicHashMap
+METHOD delta
+AT EXIT
+IF TRUE
+DO traceln("AtomicHashMap.delta"), traceStack()
+ENDRULE
+
+RULE AtomicHashMap.commit debug
+CLASS org.infinispan.atomic.AtomicHashMap
+METHOD commit
+AT EXIT
+IF TRUE
+DO traceln("AtomicHashMap.commit"), traceStack()
+ENDRULE
+
