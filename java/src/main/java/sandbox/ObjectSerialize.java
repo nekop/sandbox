@@ -9,10 +9,10 @@ public class ObjectSerialize {
 
     public static Object deserialize(byte[] bytes) throws Exception {
         Object result = null;
-        ObjectInputStream oos =
+        ObjectInputStream ois =
             new ObjectInputStream(new ByteArrayInputStream(bytes));
-        result = oos.readObject();
-        oos.close();
+        result = ois.readObject();
+        ois.close();
         return result;
     }
 
