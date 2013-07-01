@@ -9,7 +9,7 @@ require 'optparse'
 DEFAULT_SERVER = "localhost:11222"
 DEFAULT_KEY = "key"
 DEFAULT_VALUE = "value"
-DEFAULT_COUNT = 10
+DEFAULT_COUNT = 1
 DEFAULT_OPERATION = "help"
 
 class SimpleHotrodClient
@@ -41,24 +41,16 @@ class SimpleHotrodClient
 
   def execute
     case @operation
-    when "put"
-      with_cache { |cache|
-        cache.put(@key, @value)
-      }
     when "get"
-      with_cache { |cache|
-        puts "#{@key} = #{cache.get(@key)}"
-      }
-    when "put-loop"
-      with_cache { |cache|
-        @count.times do |i|
-          cache.put(@key + i.to_s, @value)
-        end
-      }
-    when "get-loop"
       with_cache { |cache|
         @count.times do |i|
           puts "#{@key + i.to_s} = #{cache.get(@key + i.to_s)}"
+        end
+      }
+    when "put"
+      with_cache { |cache|
+        @count.times do |i|
+          cache.put(@key + i.to_s, @value)
         end
       }
     when "getbulk"
