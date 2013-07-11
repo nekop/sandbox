@@ -95,7 +95,7 @@ def main
   server_list = option_hash[:s] || DEFAULT_SERVER
   key = option_hash[:k] || DEFAULT_KEY
   value = option_hash[:v] || DEFAULT_VALUE
-  count = option_hash[:c] || DEFAULT_COUNT
+  count = option_hash[:c].to_i || DEFAULT_COUNT
 
   client = SimpleHotrodClient.new(operation, server_list, key, value, count)
   client.execute
