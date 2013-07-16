@@ -95,11 +95,19 @@ class SimpleHotrodClient
       }
     when "getbulk"
       with_cache { |cache|
-        puts cache.getBulk
+        # getBulk is round-robin, so we can call "num of servers" times to get all data.
+        # TODO: Reusing @count is not a best idea, it's basically key count but here is server count.
+        @count.times do |i|
+          result = cache.getBulk
+          puts result.size
+          puts result
+        end
       }
     when "keyset"
       with_cache { |cache|
-        puts cache.keySet
+        result = cache.keySet
+        puts result.size
+        puts result
       }
     when "clear"
       with_cache { |cache|
