@@ -39,19 +39,45 @@ class SimpleHotrodClient
     cache_manager.stop
   end
 
+  def key(count)
+    # TODO: add feature to disable count suffix
+    @key + count.to_s
+  end
+
+  def value(count)
+    # TODO: do we need count suffix in value as well?
+    @value
+  end
+
   def execute
     case @operation
     when "get"
       with_cache { |cache|
         @count.times do |i|
-          puts "#{@key + i.to_s} = #{cache.get(@key + i.to_s)}"
+          puts "#{key(i)} = #{cache.get(key(i))}"
         end
       }
     when "put"
       with_cache { |cache|
         @count.times do |i|
-          cache.put(@key + i.to_s, @value)
+          cache.put(key(i), value(i))
+          puts "#{key(i)} = #{value(i)}"
         end
+      }
+    when "locate"
+      with_cache { |cache|
+        cache_manager = cache.getRemoteCacheManager()
+        marshaller = cache_manager.getMarshaller()
+        field = cache_manager.java_class.declared_field(:transportFactory)
+        field.accessible = true
+        @count.times do |i|
+          estimateSize = 100
+          bytes = marshaller.objectToByteBuffer(key(i), estimateSize)
+          transportFactory = field.value(cache_manager)
+          transport = transportFactory.getTransport(bytes)
+          puts "#{key(i)} = #{transport}"
+        end
+        field.accessible = false
       }
     when "getbulk"
       with_cache { |cache|
