@@ -79,6 +79,20 @@ class SimpleHotrodClient
         end
         field.accessible = false
       }
+    when "hash"
+      with_cache { |cache|
+        cache_manager = cache.getRemoteCacheManager()
+        field = cache_manager.java_class.declared_field(:transportFactory)
+        field.accessible = true
+        transportFactory = field.value(cache_manager)
+        field.accessible = false
+        consistentHash = transportFactory.getConsistentHash()
+        field = org.infinispan.client.hotrod.impl.consistenthash.ConsistentHashV1.java_class.declared_field(:positions)
+        field.accessible = true
+        positions = field.value(consistentHash)
+        puts positions.toString()
+        field.accessible = false
+      }
     when "getbulk"
       with_cache { |cache|
         puts cache.getBulk
