@@ -1,16 +1,25 @@
 #
-# Put this script under $JDG_HOME/client/java dir.
+# Put this script under $JDG_HOME/bin dir.
 # $ jruby jruby-hotrod.rb
 #
 
 require 'java'
 require 'optparse'
 
+SERVER_HOME = nil
 DEFAULT_SERVER = "localhost:11222"
 DEFAULT_KEY = "key"
 DEFAULT_VALUE = "value"
 DEFAULT_COUNT = 1
 DEFAULT_OPERATION = "help"
+
+server_home = SERVER_HOME
+server_home ||= ".."
+
+Dir["#{server_home}/client/hotrod/java/*.jar"].each { |jar| require jar }
+java_import "org.infinispan.client.hotrod.impl.ConfigurationProperties"
+java_import "org.infinispan.client.hotrod.RemoteCacheManager"
+java_import "java.util.Properties"
 
 class SimpleHotrodClient
   attr_accessor :operation, :server_list, :key, :value, :count
@@ -24,11 +33,6 @@ class SimpleHotrodClient
   end
 
   def with_cache(&block)
-    Dir["*.jar"].each { |jar| require jar }
-    java_import "org.infinispan.client.hotrod.impl.ConfigurationProperties"
-    java_import "org.infinispan.client.hotrod.RemoteCacheManager"
-    java_import "java.util.Properties"
-
     props = Properties.new
     props.put(ConfigurationProperties::SERVER_LIST, @server_list)
     cache_manager = RemoteCacheManager.new(props)
@@ -64,35 +68,6 @@ class SimpleHotrodClient
           puts "#{key(i)} = #{value(i)}"
         end
       }
-    when "locate"
-      with_cache { |cache|
-        cache_manager = cache.getRemoteCacheManager()
-        marshaller = cache_manager.getMarshaller()
-        field = cache_manager.java_class.declared_field(:transportFactory)
-        field.accessible = true
-        @count.times do |i|
-          estimateSize = 100
-          bytes = marshaller.objectToByteBuffer(key(i), estimateSize)
-          transportFactory = field.value(cache_manager)
-          transport = transportFactory.getTransport(bytes)
-          puts "#{key(i)} = #{transport}"
-        end
-        field.accessible = false
-      }
-    when "hash"
-      with_cache { |cache|
-        cache_manager = cache.getRemoteCacheManager()
-        field = cache_manager.java_class.declared_field(:transportFactory)
-        field.accessible = true
-        transportFactory = field.value(cache_manager)
-        field.accessible = false
-        consistentHash = transportFactory.getConsistentHash()
-        field = org.infinispan.client.hotrod.impl.consistenthash.ConsistentHashV1.java_class.declared_field(:positions)
-        field.accessible = true
-        positions = field.value(consistentHash)
-        puts positions.toString()
-        field.accessible = false
-      }
     when "getbulk"
       with_cache { |cache|
         # getBulk is round-robin, so we can call "num of servers" times to get all data.
@@ -109,10 +84,6 @@ class SimpleHotrodClient
         puts result.size
         puts result
       }
-    when "clear"
-      with_cache { |cache|
-        cache.clear
-      }
     when "size"
       with_cache { |cache|
         puts cache.size
@@ -120,6 +91,48 @@ class SimpleHotrodClient
     when "clear"
       with_cache { |cache|
         cache.clear
+      }
+
+# Hacks
+    when "locate"
+      # Print primary owner for specified key
+      with_cache { |cache|
+        cache_manager = cache.getRemoteCacheManager()
+        marshaller = cache_manager.getMarshaller()
+        field = cache_manager.java_class.declared_field(:transportFactory)
+        field.accessible = true
+        transportFactory = field.value(cache_manager)
+        field.accessible = false
+        @count.times do |i|
+          estimateSize = 100
+          bytes = marshaller.objectToByteBuffer(key(i), estimateSize)
+          transport = transportFactory.getTransport(bytes)
+          puts "#{key(i)} = #{transport}"
+        end
+      }
+    when "hashwheel"
+      # Print current hash wheel
+      with_cache { |cache|
+        cache_manager = cache.getRemoteCacheManager()
+        field = cache_manager.java_class.declared_field(:transportFactory)
+        field.accessible = true
+        transportFactory = field.value(cache_manager)
+        field.accessible = false
+        consistentHash = transportFactory.getConsistentHash()
+        field = org.infinispan.client.hotrod.impl.consistenthash.ConsistentHashV1.java_class.declared_field(:positions)
+        field.accessible = true
+        positions = field.value(consistentHash)
+        field.accessible = false
+        puts positions.toString()
+      }
+    when "hashcode"
+      # Print hashcode for specified key
+      with_cache { |cache|
+        cache_manager = cache.getRemoteCacheManager()
+        marshaller = cache_manager.getMarshaller()
+        estimateSize = 100
+        bytes = marshaller.objectToByteBuffer(@key, estimateSize)
+        puts java.lang.Integer.toHexString(java.util.Arrays.hashCode(bytes))
       }
     else
       puts $opt.help
