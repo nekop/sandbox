@@ -1,0 +1,36 @@
+loggers=org.jgroups,org.infinispan
+
+logger.level=INFO
+logger.handlers=FILE
+
+logger.org.infinispan.level=INFO
+
+#logger.org.jgroups.level=TRACE
+
+handler.CONSOLE=org.jboss.logmanager.handlers.ConsoleHandler
+handler.CONSOLE.level=INFO
+handler.CONSOLE.formatter=CONSOLE
+handler.CONSOLE.properties=autoFlush,target,enabled
+handler.CONSOLE.autoFlush=true
+handler.CONSOLE.target=SYSTEM_OUT
+handler.CONSOLE.enabled=true
+
+handler.FILE=org.jboss.logmanager.handlers.PeriodicRotatingFileHandler
+handler.FILE.level=ALL
+handler.FILE.formatter=FILE
+handler.FILE.properties=append,autoFlush,enabled,suffix,fileName
+handler.FILE.constructorProperties=fileName,append
+handler.FILE.append=true
+handler.FILE.autoFlush=true
+handler.FILE.enabled=true
+handler.FILE.suffix=.yyyy-MM-dd
+handler.FILE.fileName=infinispan-basic.log
+
+formatter.CONSOLE=org.jboss.logmanager.formatters.PatternFormatter
+formatter.CONSOLE.properties=pattern
+formatter.CONSOLE.pattern=%K{level}%d{HH\:mm\:ss,SSS} %-5p [%c] (%t) %s%E%n
+
+formatter.FILE=org.jboss.logmanager.formatters.PatternFormatter
+formatter.FILE.properties=pattern
+formatter.FILE.constructorProperties=pattern
+formatter.FILE.pattern=%d{HH\:mm\:ss,SSS} %-5p [%c] (%t) %s%E%n
