@@ -4,7 +4,8 @@
 # 
 # Mogura is find-grep tool which supports pre-defined pattern,
 # multiple match keywords and/or multiple exclude keywords, timestamp
-# query ... everything useful for logs analysis.
+# query, timestamp sort, log count ... anything useful for logs
+# analysis.
 #
 # Features:
 # 
@@ -47,7 +48,7 @@ def main
     opt.on('-v exclude pattern', '--exclude-pattern') { |v| option_hash[:v] = v }
     opt.on('-h head', '--head') { |v| option_hash[:h] = h }
     opt.on('--help', 'Prints this message and quit.') {
-      puts parser.help
+      puts opt.help
       exit 0
     }
     opt.parse!(ARGV)
