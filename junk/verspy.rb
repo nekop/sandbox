@@ -23,7 +23,7 @@ raise if opt_source_path.nil? or opt_package_name.nil?
 
 opt_source_path.chop! if opt_source_path[-1] == '/'[0] # drop last slash
 
-STACKTRACE_RE = /\s+at\s([^\(]+)\(([\w\.]+):(\d+)\)\s*$/
+STACKTRACE_RE = /\s+at\s([^\(]+)\(([^\):]+)(?::(\d+))?\)\s*$/
 
 class StackTraceElement
   attr_accessor :fqcn, :package_name, :method_name, :source_filename, :source_linenum
@@ -35,7 +35,11 @@ class StackTraceElement
       e.source_linenum = $3.to_i
       e.fqcn = fqcn_method_name[0...fqcn_method_name.rindex('.')] # drop method name
       e.method_name = fqcn_method_name[fqcn_method_name.rindex('.')+1..-1] # drop fqcn
-      e.package_name = e.fqcn[0...e.fqcn.rindex('.')] # drop class name from fqcn
+      if e.fqcn.rindex('.') then
+        e.package_name = e.fqcn[0...e.fqcn.rindex('.')] # drop class name from fqcn
+      else
+        e.package_name = ""
+      end
       e
     else
       nil
