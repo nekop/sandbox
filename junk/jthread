@@ -1,0 +1,71 @@
+#!/usr/bin/env ruby
+
+require 'optparse'
+
+$linecount_mode = false
+$ignore_vmthread_mode = false
+$raw_mode = false
+$all_pids_mode = false
+
+VMTHREADS = [
+  '"Attach Listener"',
+  '"C1 CompilerThread', # with num suffix
+  '"C2 CompilerThread', # with num suffix
+  '"DestroyJavaVM"',
+  '"GC task thread#', # with num suffix
+  '"Service Thread"',
+  '"Signal Dispatcher"',
+  '"VM Periodic Task Thread"',
+  '"VM Thread"'
+]
+
+OptionParser.new { |opt|
+  opt.on('-a') { $all_pids_mode = true }
+  opt.on('-l') { $linecount_mode = true }
+  opt.on('-i') { $ignore_vmthread_mode = true }
+  opt.on('-r') { $raw_mode = true }
+  opt.parse!(ARGV)
+}
+
+def jstack(pid)
+  jstack_result = `jstack #{pid}`.lines
+
+  if $raw_mode then
+    puts pid, jstack_result
+    return
+  end
+
+  jstack_result = jstack_result.grep(/^\"/).sort
+
+  if $ignore_vmthread_mode then
+    jstack_result.reject! { |e| 
+      match = nil
+      VMTHREADS.each do |t|
+        if e =~ /#{t}/ then
+          match = true
+          break
+        end
+      end
+      match
+    }
+  end
+
+  if $linecount_mode then
+    puts "#{pid} #{jstack_result.size}"
+    return
+  end
+
+  puts pid, jstack_result
+end
+
+pids = []
+if $all_pids_mode then
+  pids = `jps | grep -v Jps | sort -n | cut -d' ' -f1`.lines.map(&:chomp)
+else
+  pids << (ARGV.shift || `jps | grep -v Jps | sort -n | head -n1 | cut -d' ' -f1`.chomp)
+end
+pids.reject! {|e| e.empty?}
+
+pids.each do |p|
+  jstack(p)
+end
