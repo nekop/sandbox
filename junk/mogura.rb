@@ -10,6 +10,7 @@
 # Features:
 # 
 # - pre-defined patterns
+# - First errors/warns in each node
 # - filter out not interested logs
 # - how many times same log appeared
 # - search corresponding start and end
