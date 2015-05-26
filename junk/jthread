@@ -6,21 +6,26 @@ $linecount_mode = false
 $ignore_vmthread_mode = false
 $raw_mode = false
 $all_pids_mode = false
+$with_thread_pid_mode = false
 
 VMTHREADS = [
   '"Attach Listener"',
   '"C1 CompilerThread', # with num suffix
   '"C2 CompilerThread', # with num suffix
+  '"Concurrent Mark-Sweep GC Thread"',
   '"DestroyJavaVM"',
   '"GC task thread#', # with num suffix
+  '"Gang worker#', # with num suffix
   '"Service Thread"',
   '"Signal Dispatcher"',
+  '"Surrogate Locker Thread (Concurrent GC)"',
   '"VM Periodic Task Thread"',
   '"VM Thread"'
 ]
 
 OptionParser.new { |opt|
   opt.on('-a') { $all_pids_mode = true }
+  opt.on('-L') { $with_thread_pid_mode = true }
   opt.on('-l') { $linecount_mode = true }
   opt.on('-i') { $ignore_vmthread_mode = true }
   opt.on('-r') { $raw_mode = true }
@@ -41,7 +46,7 @@ def jstack(pid)
     jstack_result.reject! { |e| 
       match = nil
       VMTHREADS.each do |t|
-        if e =~ /#{t}/ then
+        if e =~ /#{Regexp.escape(t)}/ then
           match = true
           break
         end
@@ -53,6 +58,18 @@ def jstack(pid)
   if $linecount_mode then
     puts "#{pid} #{jstack_result.size}"
     return
+  end
+
+  if $with_thread_pid_mode then
+    jstack_result.map! do |l|
+      if l =~ /^".* nid=0x([^\s]+) / then
+        nid = $1
+        thread_pid = sprintf("%5d", nid.hex)
+        "#{thread_pid} #{l}"
+      else
+        l
+      end
+    end
   end
 
   puts pid, jstack_result
