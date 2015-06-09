@@ -3,6 +3,11 @@ package sandbox;
 import java.lang.ref.ReferenceQueue;
 import java.lang.ref.PhantomReference;
 
+/**
+ * An example of ThreadLocal leak which causes a class loader leak.
+ *
+ * You can fix the leak by modifying 1 line in the class. Of course the change is not in the main() method.
+ */
 public class ThreadLocalKeyValue {
 
     private ThreadLocal tl = new ThreadLocal();
