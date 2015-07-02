@@ -10,9 +10,13 @@ Steps
 - ssh-copy-id vagrant@ose300-master
 - ssh-copy-id vagrant@ose300-node1
 - ssh-copy-id vagrant@ose300-node2
-- sudo su -
-- yum install python-virtualenv
+- sudo yum install python-virtualenv
 - sh -x <(curl -s https://install.openshift.com/ose)
+
+ose300-node1,192.168.121.77,192.168.232.201,ose300-node1.example.com,ose300-node1.example.com
+ose300-node2,192.168.121.206,192.168.232.202,ose300-node2.example.com,ose300-node2.example.com
+ose300-master,192.168.121.20,192.168.232.101,ose300-master.example.com,ose300-master.example.com
+
 - Modify iptables rule on ose300-node1
 
 Tests
