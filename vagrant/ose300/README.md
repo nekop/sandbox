@@ -46,18 +46,14 @@ NAME      READY     REASON    RESTARTS   AGE
 Notes
 ====
 
-- Quick Installer doesn't have an ability to modify host names?
-- Advanced isntall requires ansible 1.8, do not do this on F22 / oh-my-vagrant
-  - git clone https://github.com/openshift/openshift-ansible
-  - cd openshift-ansible
-  - git checkout -b 3.x v3.0.0
-  
+- Vagrant doesn't add HWADDR in /etc/sysconfig/network-scripts/ifcfg-eth0, so eth0 doesn't work accross reboots
+
 TODOs
 ====
 
 - Automate everything!
   - iptables
-  - resolv.conf
+  - resolv.conf.upstream
 
 
 Memo

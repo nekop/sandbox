@@ -28,9 +28,16 @@ if [ "$INIT_RHSM" == "true" ]; then
 fi
 
 echo "Remove NetworkManager"
-ssh vagrant@ose300-master sudo yum remove NetworkManager\* -y
-ssh vagrant@ose300-node1 sudo yum remove NetworkManager\* -y
-ssh vagrant@ose300-node2 sudo yum remove NetworkManager\* -y
+ssh vagrant@ose300-master sudo yum remove NetworkManager\* -y &
+ssh vagrant@ose300-node1 sudo yum remove NetworkManager\* -y &
+ssh vagrant@ose300-node2 sudo yum remove NetworkManager\* -y &
+wait
+
+echo "Install docker and tools"
+ssh vagrant@ose300-master sudo yum install docker wget git net-tools bind-utils iptables-services bridge-utils -y &
+ssh vagrant@ose300-node1 sudo yum install docker wget git net-tools bind-utils iptables-services bridge-utils -y &
+ssh vagrant@ose300-node2 sudo yum install docker wget git net-tools bind-utils iptables-services bridge-utils -y &
+wait
 
 if [ "$INIT_DNSMASQ" == "true" ]; then
     echo "Init dnsmasq on node1"
